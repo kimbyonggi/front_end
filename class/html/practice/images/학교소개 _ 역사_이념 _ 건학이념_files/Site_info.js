@@ -1,0 +1,33 @@
+﻿var ASITEINFO={
+	"CLIENT_FOLDER": "CmsHome",
+	"SITENAME": "선문대 메인",
+	"MAIL": "ddung81@sunmoon.ac.kr",
+	"TITLE_BAR": "",
+	"SITEKEYWORD": "선문대학교",
+	"SITEMETA": "선문대학교",
+	"SECURITYON": "False",
+	"SITELINKVIEW": "0",
+	"FAVICON": "True",
+	"FAVICON_IMG": "/dbimage/main/design/2009/06/30/bgoSYFT36PjE.ico",
+	"ADMINLOGO": "/dbimage/main/design/2009/03/18/w11M1PCWv78A.gif",
+	"BOARD_ADMIN": "0",
+	"BOARD_ADMIN_IMG": "/dbimage/main/design/2009/04/07/RwNu5YQzY2lN.gif",
+	"BOARD_ADMIN_TXT": "관리자",
+	"ADMINFOOT": "<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"10\">\r\n  <tr>\r\n    <td height=\"10\"></td>\r\n  </tr>\r\n  <tr>\r\n    <td bgcolor=\"#f1f1f1\"><img src=\"/cmsmaster/img/foot.gif\" /></td>\r\n  </tr>\r\n</table>",
+	"SIZE_WIDTH": "930",
+	"SIZE_LEFT": "215",
+	"COLOR_LEFT": "",
+	"COLOR_RIGHT": "",
+	"COLOR_MAIN": "",
+	"ALIGEN": "1",
+	"MARGIN_LEFT": "0",
+	"FRAME": "1",
+	"COLOR_IMG": "1",
+	"BACKGROUND_COLOR": "",
+	"BACKGROUND_IMAGE": "",
+	"EDIT_TIME": "2016-03-22 03:19:16",
+	"ETC_CONTACT": "0",
+	"ETC_AUTO_LOGOUT": "0"
+};
+
+

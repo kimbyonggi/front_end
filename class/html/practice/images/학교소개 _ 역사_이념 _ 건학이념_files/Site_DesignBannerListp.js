@@ -1,0 +1,32 @@
+﻿var DesignBannerList = { HTML : new Array(),HTMLTEXT : new Array(),MEMO : new Array(),FLASH_FILE: new Array(),TITLE: new Array(),XML_FILE : new Array(),JS_FILE : new Array(),FLASH_WIDTH : new Array(),FLASH_HEIGHT: new Array(),NUM: new Array()};DesignBannerList.HTML[0]="<a href=\"http://www.naver.com\" ><img src=\"/dbimage/design/2009/11/17/WtQETOi0WwVj.gif\"  style=\"cursor:pointer\" Width=\"245\"  Height=\"71\" border=\"0\"></a>";
+DesignBannerList.HTMLTEXT[0]=0;
+DesignBannerList.MEMO[0]="http://www.naver.com";
+DesignBannerList.FLASH_FILE[0]="http://suncms.eznic.co.kr/dbimage/main/design/2009/11/17/WtQETOi0WwVj.gif";
+DesignBannerList.TITLE[0]="메인우측1_1";
+DesignBannerList.XML_FILE[0]=1;
+DesignBannerList.JS_FILE[0]="{@Banner_003}";
+DesignBannerList.FLASH_WIDTH[0]=245;
+DesignBannerList.FLASH_HEIGHT[0]=71;
+DesignBannerList.NUM[0]=0;
+DesignBannerList.HTML[1]="<a href=\"http://www.yahoo.co.kr\" ><img src=\"/dbimage/design/2009/11/17/xoytylbWRWns.gif\"  style=\"cursor:pointer\" Width=\"245\"  Height=\"71\" border=\"0\" alt=\"메인우측1-2\"></a>";
+DesignBannerList.HTMLTEXT[1]=0;
+DesignBannerList.MEMO[1]="http://www.yahoo.co.kr";
+DesignBannerList.FLASH_FILE[1]="http://suncms.eznic.co.kr/dbimage/main/design/2009/11/17/xoytylbWRWns.gif";
+DesignBannerList.TITLE[1]="메인우측1-2";
+DesignBannerList.XML_FILE[1]=1;
+DesignBannerList.JS_FILE[1]="{@Banner_003}";
+DesignBannerList.FLASH_WIDTH[1]=245;
+DesignBannerList.FLASH_HEIGHT[1]=71;
+DesignBannerList.NUM[1]=1;
+DesignBannerList.HTML[2]="<a href=\"http://www.naver.com\" ><img src=\"/dbimage/design/2009/11/17/WnMQfSDHgiEJ.gif\"  style=\"cursor:pointer\" Width=\"245\"  Height=\"71\" border=\"0\" alt=\"메인우측1-3\"></a>";
+DesignBannerList.HTMLTEXT[2]=0;
+DesignBannerList.MEMO[2]="http://www.naver.com";
+DesignBannerList.FLASH_FILE[2]="http://suncms.eznic.co.kr/dbimage/main/design/2009/11/17/WnMQfSDHgiEJ.gif";
+DesignBannerList.TITLE[2]="메인우측1-3";
+DesignBannerList.XML_FILE[2]=1;
+DesignBannerList.JS_FILE[2]="{@Banner_003}";
+DesignBannerList.FLASH_WIDTH[2]=245;
+DesignBannerList.FLASH_HEIGHT[2]=71;
+DesignBannerList.NUM[2]=2;
+
+

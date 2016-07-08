@@ -1,0 +1,8 @@
+﻿.iePngFix {
+/*
+	BEHAVIOR: url(/_js/poplayer/iepngfix.htc)
+*/
+}
+
+.msgtitle{FILTER:dropshadow(color=#eb3056,offX=1,offY=1,positive=1); WIDTH:100%;color:eb3056;} 
+.msgcontent{padding:10px;font-size:12px;font-family:Verdana;}
