@@ -1,7 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1e3f9d68-ca92-4cf5-b9dd-c3678e9515ce" name="Default" comment="" />
+    <list default="true" id="1e3f9d68-ca92-4cf5-b9dd-c3678e9515ce" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html/practice/p2.html" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\AC_RunActiveContent.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\All.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Base64.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Board2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Board2Plus.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\BoardZ.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Board_Main.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Bookmark.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Consult.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\HuskyEZCreator.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\LeftMenu.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Member.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\MemberV2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Member_Agreement.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Member_Seed.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Message.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\PageSatisfaction.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Poll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Silverlight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Site_Board.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Site_Board_Template.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Site_Consult.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Site_DesignBannerListp.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Site_Poll.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Site_Schedule.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\Site_info.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\analytics.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\banner_01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\banner_02.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\banner_03.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\basepage(1).js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\basepage.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\bgLocation.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\board.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\calpopup_new.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\common(1).css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\common.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\common01.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\content.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\dom-drag.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\fckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\founding_ph_img01.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\html5shiv.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\icon_home.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\jquery.datepick.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\jquery.datepick.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\jquery.easing.1.3.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\jquery.lightbox-0.5.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\jquery.lightboxZoom-0.5.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\json2.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\music.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\reset.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\sub.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\sub_visual01_img01.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\top_portal_icon.gif" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\zPopup.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images\학교소개 _ 역사_이념 _ 건학이념_files\zPopup.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/html/practice/p1.html" afterPath="$PROJECT_DIR$/class/html/practice/p1.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="front_end.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,30 +88,50 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="element.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/html/element/element.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.6071428">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state vertical-scroll-proportion="-26.666666">
+              <caret line="210" column="45" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
+              <folding>
+                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#428#514#0" expanded="false" />
+                <element signature="e#611#749#0" expanded="false" />
+                <element signature="n#ul#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ol#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#dl#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ol#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#ul#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#p#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#table#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#fieldset#1;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#fieldset#2;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#fieldset#3;n#form#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="p1.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/class/html/practice/p1.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.9879518">
+              <caret line="17" column="34" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="p1.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class/html/practice/p1.html">
+      <file leaf-file-name="p2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/class/html/practice/p2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37942666">
-              <caret line="306" column="7" selection-start-line="306" selection-start-column="7" selection-end-line="306" selection-end-column="7" />
-              <folding>
-                <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state vertical-scroll-proportion="0.20236088">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -66,8 +153,10 @@
       <list>
         <option value="$PROJECT_DIR$/class/hello_html.html" />
         <option value="$PROJECT_DIR$/class/html/element/element.html" />
-        <option value="$PROJECT_DIR$/class/html/practice/p1.html" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/class/html/practice/p1.html" />
+        <option value="$PROJECT_DIR$/class/html/practice/dothome.html" />
+        <option value="$PROJECT_DIR$/class/html/practice/p2.html" />
       </list>
     </option>
   </component>
@@ -79,8 +168,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
-    <option name="y" value="67" />
+    <option name="x" value="421" />
+    <option name="y" value="221" />
     <option name="width" value="1176" />
     <option name="height" value="754" />
   </component>
@@ -180,32 +269,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="practice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front_end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="front_end" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="class" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="html" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="element" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -278,8 +341,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="67" width="1176" height="754" extended-state="0" />
-    <editor active="true" />
+    <frame x="421" y="221" width="1176" height="754" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29827586" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -346,15 +409,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -403,15 +458,26 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/html/practice/images/학교소개 _ 역사_이념 _ 건학이념_files/sub_visual01_img01.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.6071428">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/html/practice/p1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9879518">
+          <caret line="17" column="34" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="34" />
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/html/element/element.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="216" column="7" selection-start-line="216" selection-start-column="7" selection-end-line="216" selection-end-column="11" />
+        <state vertical-scroll-proportion="-26.666666">
+          <caret line="210" column="45" selection-start-line="210" selection-start-column="45" selection-end-line="210" selection-end-column="45" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="e#428#514#0" expanded="false" />
@@ -434,29 +500,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/class/html/practice/p2.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.6071428">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.20236088">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/html/practice/p1.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37942666">
-          <caret line="306" column="7" selection-start-line="306" selection-start-column="7" selection-end-line="306" selection-end-column="7" />
-          <folding>
-            <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#nav#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#footer#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
