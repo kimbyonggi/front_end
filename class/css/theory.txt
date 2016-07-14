@@ -1,0 +1,53 @@
+Selector
+1. Tag
+2. id Attribute
+3. class
+
+
+
+
+
+
+
+
+
+css 포함방법
+
+
+
+
+1. inline
+
+ex)
+<div style="color:red"></div>
+
+
+2. embed (internal)
+
+ex)
+<style>
+  p{color:red;}
+</style>
+
+
+3. external
+
+ex)
+파일 : style.css
+<link rel="stylesheet" href="style.css"/>
+
+
+
+문법
+
+selector {
+  property : property 값 ;
+  property : property 값 ;
+  property : property 값 ;
+  }
+
+  ***** float property *****
+
+  float : left;
+  float : right;
+  float : none;

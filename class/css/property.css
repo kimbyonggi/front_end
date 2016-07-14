@@ -1,0 +1,193 @@
+
+p{
+  color: #00a0d1;
+}
+
+
+
+#text-align{
+  text-align: center;
+  font-size: 20pt;
+}
+
+
+.text-decoration{
+  text-decoration: none;
+  text-shadow: 2px 2px #00a0d1;
+}
+
+
+.font{
+  font-family: "궁서체", serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+
+.link-status:link,
+.link-status:visited{
+  color:#000;
+  text-decoration: none;
+}
+
+
+.link-status:hover{
+  color: #b5b2ff;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+
+table{
+  border-collapse: collapse;
+  width: 300px;
+}
+
+table, th, td {
+  border: 1px solid #000;
+}
+
+th, td{
+  height: 50px;
+}
+
+/* box model block 요소와 inline 요소 비교*/
+
+.box-model-block{
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 5px solid red;
+  margin: 100px;
+}
+
+.box-model-inline{
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 5px solid blue;
+  margin: 100px;
+}
+
+/*** border property 정리
+
+1. 4방향 모두 공통 적용할때
+
+boder: 굵기 종류 색;
+
+2.각각의 방향에 공통적용
+
+boder-top:굵기 종류 색;
+boder-right:굵기 종류 색;
+boder-bottom:굵기 종류 색;
+boder-left:굵기 종류 색;
+
+3.각각의 방향, 각각의 css속성 적용
+
+boder-top-style
+boder-top-width
+boder-right-style
+boder-right-width
+boder-bottom-style
+boder-bottom-width
+boder-left-style
+boder-left-width
+
+***/
+
+/** css 단위
+
+px : 숫자 고정값
+
+em : body에 적용된 기본 폰트 크기의 배수
+
+% : parent tag 영역의 비율로 크기 결정
+
+ex)
+
+-html
+ <div>
+  <p></p>
+ </div>
+
+ -css
+  p{width:50%}
+
+  => p 태그의 영역 가로 길이는 div 태그의 영역의 50%(절반)의 크기
+
+**/
+
+/*** width / max-width / min- width ***/
+
+.wrap{
+  width: 100%;
+  min-width: 400px;
+  max-width: 800px;
+
+  background-color:red;
+  color: white;
+}
+
+
+/** display property */
+
+.display-inline{
+  display: inline;
+
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 5px solid blue;
+}
+
+.display-block{
+  display: block;
+
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 5px solid red;
+}
+
+.display-inline-block{
+  display: inline-block;
+
+  width: 300px;
+  height: 100px;
+  padding: 50px;
+  border: 5px solid green;
+}
+
+/** float porperty **/
+
+.float-wrap{
+  width: 800px;
+  height: 500px;
+  border: 1px solid red;
+}
+
+.float-left{
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color:green;
+}
+.float-right{
+  float: left;
+  width: 200px;
+  height: 200px;
+  background-color: skyblue;
+}
+.bg-color-gray{
+  width: 400px;
+  height: 200px;
+  background-color: gray;
+  clear: both;
+}
+
+
+
+
+
+
+
