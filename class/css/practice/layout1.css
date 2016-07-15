@@ -1,0 +1,56 @@
+/*
+  웹페이지 전체 가로길이 :1200px
+  브라우저 가운데로 정렬
+  header 세로길이는 : 100px
+  lnb 가로길이는 : 250px
+  lnb와 contents 사이의 여백 : 50px
+  footer의 세로길이 : 300px
+*/
+/**
+float & clear
+
+-float된 영역의 부모 element는 높이가 인식되지 않으므로,
+하단의 영역과 관계가 재대로 표현되지 않을 수 있음.
+
+- 하단 영역의 clear:both가 제대로 동작하게 하려면, float된
+영역의 parent element가 높이가 인식되어야 함
+
+- float된 영역의 parent element의 높이를 인식시키는 방법 4가지
+comming soon!!
+**/
+.wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 20px;
+}
+
+.lnb{
+    width: 250px;
+    height: 800px;
+    margin-right: 20px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.container{
+    height: 800px;
+}
+
+.contents{
+    width: 930px;
+    height: 800px;
+    background-color: lightseagreen;
+    float: right;
+}
+
+.footer{
+    height: 300px;
+    background-color: #00a0d1;
+    margin-top: 20px;
+    clear: both;
+}

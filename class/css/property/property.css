@@ -185,7 +185,84 @@ ex)
   clear: both;
 }
 
+/*position property */
 
+.relative-wrap{
+  width: 300px;
+  height: 200px;
+  border: 1px solid darkolivegreen;
+  margin-bottom: 100px;
+}
+.position-relative{
+  position: relative;
+  top: 20px;
+  left: 30px;
+
+  background-color: silver;
+}
+
+.outer{
+  position: relative;
+  width: 500px;
+  height: 500px;
+
+  background-color: #00a0d1;
+}
+
+.absolute-wrap{
+  position: absolute;
+  right: 30px;
+  bottom: 50px;
+  width: 300px;
+  height: 200px;
+  border: 1px solid brown;
+  margin-bottom: 100px;
+}
+
+.position-absolute{
+  position: absolute;
+  top: 20px;
+  left: 30px;
+
+  background-color: royalblue;
+  color: white;
+}
+
+
+.position-fixed{
+  position: fixed;
+  bottom: 10px;
+  right: 30px;
+
+  width: 100px;
+  height: 100px;
+  background-color: yellowgreen;
+}
+
+.overlap-parent{
+  position: relative;
+  width: 300px;
+  height: 200px;
+  border: 1px solid red ;
+}
+
+.overlap-a{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
+
+.overlap-b{
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 100px;
+  background-color: chocolate;
+}
 
 
 
