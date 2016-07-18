@@ -1,0 +1,63 @@
+/*
+전체가로사이즈:900
+중앙왼쪽 160
+높이는 임의 설정
+해더 푸터 100
+*/
+
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    margin-bottom: 20px;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+}
+
+.container{
+    margin: 20px 0;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.lnb {
+    width: 160px;
+    height: 400px;
+    background-color: aquamarine;
+    float: left;
+}
+
+.content1{
+    width: 390px;
+    height: 1000px;
+    background-color: lightseagreen;
+    float: left;
+    margin :0px 20px;
+    color: white;
+    text-align: center;
+}
+
+.content2{
+    width: 390px;
+    height: 1000px;
+    background-color: green;
+    float: left;
+    color: white;
+    text-align: center;
+}
+
+.footer{
+    height: 100px;
+    background-color: darkslategrey;
+    margin-top: 20px;
+    clear: both;
+    color: white;
+}

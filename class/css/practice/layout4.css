@@ -1,0 +1,60 @@
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+    color: white;
+}
+
+.header{
+    height: 100px;
+    background-color: #00a0d1;
+}
+
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left-col{
+    float: left;
+    width: 320px;
+}
+
+.First-tile{
+    height: 320px;
+    background-color: red;
+}
+
+.and-another{
+    height: 540px;
+    background-color: deepskyblue;
+}
+
+.right-col{
+    float: right;
+    width: 660px;
+}
+
+.Another-tile{
+    height: 660px;
+    background-color: orange;
+}
+
+.the-forth-one{
+    width: 400px;
+    height: 200px;
+    background-color: blue;
+    float: left;
+}
+
+.the-last{
+    width: 260px;
+    height: 200px;
+    background-color: darkolivegreen;
+    float: left;
+}
+
+.footer{
+    height: 100px;
+    background-color: aqua;
+}

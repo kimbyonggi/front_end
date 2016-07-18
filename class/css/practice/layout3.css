@@ -1,0 +1,61 @@
+.wrap {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.wrap{
+    width: 980px;
+}
+
+.header{
+    width: 980px;
+    height: 100px;
+    background-color: #00a0d1;
+    color: white;
+}
+
+.Firsttile{
+    width: 320px;
+    height: 320px;
+    background-color: red;
+    float: left;
+    color: white;
+}
+
+.Anothertile{
+    width: 660px;
+    height: 660px;
+    float: right;
+    background-color: orange;
+    color: white;
+}
+
+.andanother{
+    width: 320px;
+    height: 540px;
+    background-color: deepskyblue;
+    float: left;
+}
+
+.theforthone{
+    width: 330px;
+    height: 200px;
+    background-color: darkblue;
+    float: left;
+    color: white;
+}
+
+.thelast{
+    width: 330px;
+    height: 200px;
+    background-color: darkolivegreen;
+    float: right;
+    color: white;
+}
+
+.footer{
+    width: 980px;
+    height: 100px;
+    background-color: aqua;
+    clear: both;
+}

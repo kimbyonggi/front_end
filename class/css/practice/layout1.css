@@ -29,17 +29,19 @@ comming soon!!
     margin-bottom: 20px;
 }
 
+.container:after{
+    content: "";
+    display: block;
+    clear: both;
+}
 .lnb{
     width: 250px;
-    height: 800px;
+    height: 400px;
     margin-right: 20px;
     background-color: aquamarine;
     float: left;
 }
 
-.container{
-    height: 800px;
-}
 
 .contents{
     width: 930px;
