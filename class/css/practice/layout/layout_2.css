@@ -1,0 +1,80 @@
+.wrap{
+    width: 980px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    background-color: aqua;
+    margin-bottom: 10px;
+}
+
+.menw-RNB{
+    height: 100px;
+    background-color: steelblue;
+    margin-bottom: 10px;
+}
+
+.containal:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.left{
+    float: left;
+    width: 490px;
+}
+
+.menu-LNB{
+    height: 300px;
+    background-color: slateblue;
+}
+
+.pictures1{
+    float: left;
+    width: 245px;
+    height: 200px;
+    background-color: indigo;
+}
+
+.pictures2{
+    float: left;
+    width: 245px;
+    height: 200px;
+    background-color: cornflowerblue;
+}
+
+.right{
+    float: left;
+    margin-left: 10px;
+    width: 480px;
+}
+
+.right1{
+    float: left;
+    width: 240px;
+}
+
+.main1{
+    height: 250px;
+    background-color: darkslategrey;
+}
+
+.main2{
+    height: 250px;
+    background-color: goldenrod;
+}
+
+.advertising{
+    float: right;
+    width: 240px;
+    height: 500px;
+    background-color: lightgreen;
+}
+
+.footer{
+    height: 100px;
+    background-color: aqua;
+    margin-top: 10px;
+}
