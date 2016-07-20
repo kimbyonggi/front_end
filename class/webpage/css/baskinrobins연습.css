@@ -1,0 +1,13 @@
+.header{
+    height: 135px;
+    border-top: 3px solid #ff7c98;
+    background: url("../images2/bg_header.gif") no-repeat;
+    position: relative;
+}
+
+.logo{
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    margin-left: -46px;
+}

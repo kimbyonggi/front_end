@@ -3,14 +3,32 @@
 <head>
   <meta charset="UTF-8">
   <title>배스킨라벤스</title>
+  <link rel="stylesheet" href="css/baskinrobins연습.css"/>
+  <link rel="stylesheet" href="css/reset.css"/>
+  <style>
+    .btn-search{
+      background: url(images2/icon_search.png) no-repeat;
+      display: block;
+      width: 54px;
+      height: 54px;
+      text-indent: -99999em;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
+
 </head>
 <body>
 
-<header>
-  <div>
-    <img src="images2/bg_header.gif" alt="header배경">
-  </div>
-  <div>
+<header class="header">
+
+  <h1 class="logo">
+    <a href="#">
+      <img src="images2/logo_baskinrobbins.png" alt="baskinrobbins로고"/>
+    </a>
+  </h1>
+
+  <div class="util-sns">
     <a href="#">
       <img src="images2/icon_facebook.png" alt="baskinrobbins페이스북"/>
     </a>
@@ -23,27 +41,25 @@
     <a href="#">
       <img src="images2/icon_instgram.png" alt="baskinrobbins인스타그램"/>
     </a>
+
+    <div>
+      <ul>
+        <li><a href="#">LOGIN</a></li>
+        <li><a href="#">JOIN</a></li>
+      </ul>
+    </div>
+
   </div>
-  <h1>
-    <a href="#">
-      <img src="images2/logo_baskinrobbins.png" alt="baskinrobbins로고"/>
-    </a>
-  </h1>
-  <div>
+
+  <div class="btn-wrap">
     <ul>
       <li><a href="#">고객센터</a></li>
       <li><a href="#">윤리신고센터</a></li>
       <li><a href="#">CONTACTUS</a></li>
     </ul>
-    <a href="#">
-      <img src="images2/icon_search.png" alt="검색"/>
-    </a>
-  </div>
-  <div>
-    <ul>
-      <li><a href="#">LOGIN</a></li>
-      <li><a href="#">JOIN</a></li>
-    </ul>
+    <div>
+      <button type="button" class="btn-search">검색</button>
+    </div>
   </div>
 
 </header>
@@ -54,7 +70,7 @@
     <li>
       <a href="#">FLAVOR OF THE MONTH</a>
         <ul>
-          <li><a href="#"><img src="images2/img_month_1607.png" alt="상단 메뉴 아이스크림 사진"/></a></li>
+          <li><a href="#"><img src="images2/img_month_1607.png" alt="welcome to the jungle"/></a></li>
         </ul>
     </li>
     <li>
