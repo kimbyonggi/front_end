@@ -5,77 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e3f9d68-ca92-4cf5-b9dd-c3678e9515ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13381280_295331984142809_52926977_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13397690_247734182276668_1909819928_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13473307_229971767395822_1903096857_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13473364_1089725221104468_1933505077_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13525536_1060812247346490_465242174_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13534332_1549629238677292_1390060555_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13534454_1800319780201958_1090475516_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13562006_1814645418768719_1987010308_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13636026_724438467694523_1966432034_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13649225_525833280951625_483748832_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13694698_1788843994680778_2033248276_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/13714105_923990867713243_1790071714_n.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/banner_delivery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/banner_praise.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_banner_next.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_banner_prev.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_pop_close.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_search_close.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/family_size_off.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/h_happyorder_delivery.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/h_sns.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/h_store.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/img_happyorder_delivery.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/img_main_banner_10.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/img_main_banner_2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/img_main_banner_7.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/img_main_banner_8.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/img_main_banner_9.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/img_store.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/sns_blog.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/sns_facebook.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/sns_instagram.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/images2/sns_twitter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/css/baskinrobins연습.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/css/reset.css" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\baskinrobbins 연습.html" afterPath="$PROJECT_DIR$/class/webpage/baskinrobbins 연습.html" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\1454744084.png" afterPath="$PROJECT_DIR$/class/webpage/images2/1454744084.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\1454744830.png" afterPath="$PROJECT_DIR$/class/webpage/images2/1454744830.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\1454745114.png" afterPath="$PROJECT_DIR$/class/webpage/images2/1454745114.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\1467794853.png" afterPath="$PROJECT_DIR$/class/webpage/images2/1467794853.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\bg_header.gif" afterPath="$PROJECT_DIR$/class/webpage/images2/bg_header.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\bg_menu.jpg" afterPath="$PROJECT_DIR$/class/webpage/images2/bg_menu.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\btn_ccm.gif" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_ccm.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\btn_celectory.gif" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_celectory.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\btn_happypoint (1).png" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_happypoint (1).png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\btn_happypoint.png" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_happypoint.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\btn_ksa.png" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_ksa.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\btn_norton.gif" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_norton.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\btn_spc_story.png" afterPath="$PROJECT_DIR$/class/webpage/images2/btn_spc_story.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\footer_logo.png" afterPath="$PROJECT_DIR$/class/webpage/images2/footer_logo.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\h_event.png" afterPath="$PROJECT_DIR$/class/webpage/images2/h_event.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\h_menu.png" afterPath="$PROJECT_DIR$/class/webpage/images2/h_menu.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\icon_blog.png" afterPath="$PROJECT_DIR$/class/webpage/images2/icon_blog.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\icon_facebook.png" afterPath="$PROJECT_DIR$/class/webpage/images2/icon_facebook.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\icon_instgram.png" afterPath="$PROJECT_DIR$/class/webpage/images2/icon_instgram.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\icon_search.png" afterPath="$PROJECT_DIR$/class/webpage/images2/icon_search.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\icon_twitter.png" afterPath="$PROJECT_DIR$/class/webpage/images2/icon_twitter.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_flaovr_month_top.jpg" afterPath="$PROJECT_DIR$/class/webpage/images2/img_flaovr_month_top.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_flavor_month_1607.jpg" afterPath="$PROJECT_DIR$/class/webpage/images2/img_flavor_month_1607.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_happypoint_app.jpg" afterPath="$PROJECT_DIR$/class/webpage/images2/img_happypoint_app.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_main_banner_1.jpg" afterPath="$PROJECT_DIR$/class/webpage/images2/img_main_banner_1.jpg" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_menu_list_03-03.png" afterPath="$PROJECT_DIR$/class/webpage/images2/img_menu_list_03-03.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_menu_list_03.png" afterPath="$PROJECT_DIR$/class/webpage/images2/img_menu_list_03.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_menu_list_05.png" afterPath="$PROJECT_DIR$/class/webpage/images2/img_menu_list_05.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_menu_list_08.png" afterPath="$PROJECT_DIR$/class/webpage/images2/img_menu_list_08.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_menu_list_09.png" afterPath="$PROJECT_DIR$/class/webpage/images2/img_menu_list_09.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_menu_list_10.png" afterPath="$PROJECT_DIR$/class/webpage/images2/img_menu_list_10.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\img_month_1607.png" afterPath="$PROJECT_DIR$/class/webpage/images2/img_month_1607.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\logo_baskinrobbins.png" afterPath="$PROJECT_DIR$/class/webpage/images2/logo_baskinrobbins.png" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\stit_happypoint.gif" afterPath="$PROJECT_DIR$/class/webpage/images2/stit_happypoint.gif" />
-      <change type="MOVED" beforePath="C:\Users\321-16\Desktop\front_end\class\html\practice\images2\stit_store.gif" afterPath="$PROJECT_DIR$/class/webpage/images2/stit_store.gif" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/baskinrobbins 연습.html" afterPath="$PROJECT_DIR$/class/webpage/baskinrobbins 연습.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/css/baskinrobins연습.css" afterPath="$PROJECT_DIR$/class/webpage/css/baskinrobins연습.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
@@ -102,9 +33,11 @@
           <file leaf-file-name="baskinrobbins 연습.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/webpage/baskinrobbins 연습.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.5296343">
-                  <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-                  <folding />
+                <state vertical-scroll-proportion="0.20933165">
+                  <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+                  <folding>
+                    <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -116,8 +49,8 @@
           <file leaf-file-name="baskinrobins연습.css" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/class/webpage/css/baskinrobins연습.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.20195839">
-                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+                <state vertical-scroll-proportion="0.28396574">
+                  <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -193,8 +126,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="409" />
-    <option name="y" value="83" />
+    <option name="x" value="380" />
+    <option name="y" value="75" />
     <option name="width" value="1510" />
     <option name="height" value="954" />
   </component>
@@ -383,8 +316,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -463,7 +396,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="409" y="83" width="1510" height="954" extended-state="0" />
+    <frame x="380" y="75" width="1510" height="954" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18473895" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -471,18 +404,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -501,6 +434,14 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/class/webpage/css/baskinrobins연습.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/class/css/property/property.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -512,7 +453,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3215637">
           <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09457755">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -787,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.74296206">
           <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -795,7 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09457755">
           <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09457755">
           <caret line="5" column="46" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,7 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="24" selection-start-line="18" selection-start-column="4" selection-end-line="21" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -819,7 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -827,7 +760,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09457755">
           <caret line="5" column="45" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -835,30 +767,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26560587">
           <caret line="23" column="1" selection-start-line="23" selection-start-column="1" selection-end-line="23" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5777234">
-          <caret line="33" column="16" selection-start-line="33" selection-start-column="16" selection-end-line="33" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.63280296">
+          <caret line="36" column="8" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/baskinrobbins 연습.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5296343">
-          <caret line="28" column="7" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
-          <folding />
+        <state vertical-scroll-proportion="0.20933165">
+          <caret line="79" column="59" selection-start-line="79" selection-start-column="59" selection-end-line="79" selection-end-column="59" />
+          <folding>
+            <element signature="n#header#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/css/baskinrobins연습.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20195839">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.28396574">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
           <folding />
         </state>
       </provider>

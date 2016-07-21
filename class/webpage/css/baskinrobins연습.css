@@ -3,6 +3,13 @@
     border-top: 3px solid #ff7c98;
     background: url("../images2/bg_header.gif") no-repeat;
     position: relative;
+    margin: 0 auto;
+}
+
+.small-wrap{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
 }
 
 .logo{
@@ -10,4 +17,114 @@
     top: 20px;
     left: 50%;
     margin-left: -46px;
+}
+
+.util-sns{
+    float: left;
+    margin-top: 50px;
+}
+
+.util-sns-item{
+    float: left;
+    margin-right: 10px;
+}
+
+.util-sns-link{
+    display: block;
+}
+
+.cs{
+    position: absolute;
+    top: 60px;
+    right: 80px;
+}
+
+.cs:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.cs-item{
+    float: left;
+    font-size: 11px;
+    margin-left: 20px;
+}
+
+.btn-wrap{
+    position: absolute;
+    top: 39px;
+    right: 0;
+}
+
+.nav{
+    height: 47px;
+    border-top: 1px solid #e2d9d6;
+    border-bottom: 2px solid #3f291a;
+}
+
+.nav-member{
+    float: left;
+    margin-top: 0px;
+}
+
+
+.nav-member-item{
+    float: left;
+    margin-right: 0px;
+}
+
+.nav-member-link{
+    display: block;
+    text-indent: -99999em;
+    height: 12px;
+    background: url(../images2/gnb_menu.png) no-repeat;
+}
+
+.login
+
+/* 임시 안보임 */
+
+.gnb-depth2{
+    display: none;
+}
+
+.gnb{
+    float: right;
+}
+
+.gnb-depth1-item{
+    float: left;
+}
+
+.gnb-depth1-link{
+    display: block;
+    text-indent: -99999em;
+    height: 12px;
+    background: url(../images2/gnb_menu.png) no-repeat;
+}
+
+.flavor{
+    width: 166px;
+    background-position: -132px 0;
+}
+
+.menu{
+    width: 42px;
+    background-position: -416px 0;
+}
+
+.event{
+    width: 43px;
+    background-position: -576px 0;
+}
+
+.store{
+    width: 43px;
+    background-position: -736px 0;
+}
+
+.about{
+    width: 50px;
+    background-position: -896px 0;
 }
