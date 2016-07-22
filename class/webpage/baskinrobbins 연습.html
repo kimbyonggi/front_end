@@ -5,18 +5,8 @@
   <title>배스킨라벤스</title>
   <link rel="stylesheet" href="css/baskinrobins연습.css"/>
   <link rel="stylesheet" href="css/reset.css"/>
-  <style>
-    .btn-search{
-      background: url(images2/icon_search.png) no-repeat;
-      display: block;
-      width: 54px;
-      height: 54px;
-      text-indent: -99999em;
-      border: none;
-      cursor: pointer;
-    }
-  </style>
-
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/gnb.js"></script>
 </head>
 <body>
 
@@ -77,22 +67,28 @@
   <div class="small-wrap">
     <ul class="nav-member">
       <li class="nav-member-item"><a class="nav-member-link login" href="#">LOGIN</a></li>
+      <!-- [D] 로그인 되었을 때 표시되는 태그 라인 -->
+      <!--
+      <li class="nav-member-item"><a class="nav-member-link logout" href="#">LOGOUT</a></li>
+      -->
       <li class="nav-member-item"><a class="nav-member-link join" href="#">JOIN</a></li>
+      <!-- [D] 로그인 되었을 때 표시되는 태그 라인 -->
+      <!--
+      <li class="nav-member-item"><a class="nav-member-link mypage" href="#">MY PAGE</a></li>
+      -->
     </ul>
 
     <ul class="gnb">
-      <li class="gnb-depth2">
-        <img class="gnb-depth2-item" src="images2/img_happypoint_app.jpg" alt="해피포인트앱">
-      </li>
-      <li class="gnb-depth1-item">
+
+      <li class="gnb-depth1-item flavor">
         <a class="gnb-depth1-link flavor" href="#">FLAVOR OF THE MONTH</a>
-          <ul class="gnb-depth2">
+          <ul class="gnb-depth2 img">
             <li class="gnb-depth2-item">
               <a class="gnb-depth2-link" href="#"><img src="images2/img_month_1607.png" alt="welcome to the jungle"/></a>
             </li>
           </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item menu">
         <a class="gnb-depth1-link menu" href="#">MENU</a>
           <ul class="gnb-depth2">
             <li class="gnb-depth2-item">
@@ -112,7 +108,7 @@
             </li>
           </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item event">
         <a class="gnb-depth1-link event" href="#">EVENT</a>
           <ul class="gnb-depth2">
             <li class="gnb-depth2-item">
@@ -123,7 +119,7 @@
             </li>
           </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item store">
         <a class="gnb-depth1-link store" href="#">STORE</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item">
@@ -134,7 +130,7 @@
           </li>
         </ul>
       </li>
-      <li class="gnb-depth1-item">
+      <li class="gnb-depth1-item about">
         <a class="gnb-depth1-link about" href="#">ABOUT</a>
         <ul class="gnb-depth2">
           <li class="gnb-depth2-item">
@@ -150,13 +146,18 @@
             <a class="gnb-depth2-link" href="#">점포개설문의</a>
           </li>
           <li class="gnb-depth2-item">
-            <a class="gnb-depth2-link" href="#">CONTACTUS</a>
+            <a class="gnb-depth2-link" href="#">CONTACT US</a>
           </li>
         </ul>
       </li>
     </ul>
-  </div>
 
+    <div class="gnb-depth2 img1">
+      <img class="gnb-depth2 img1" src="images2/img_happypoint_app.jpg" alt="해피포인트앱">
+    </div>
+
+  </div>
+  <div class="gnb-bg"></div>
 </nav>
 
 <div>
@@ -275,7 +276,7 @@
     <a href="#"><img src="images2/btn_norton.gif" alt="norton로고"/> </a>
     <a href="#"><img src="images2/btn_ccm.gif" alt="ccm로고"/> </a>
     <a href="#"><img src="images2/btn_ksa.png" alt="kas로고"/> </a>
-      <select>
+      <select autofocus>
         <option>배스킨스쿨</option>
         <option>SPC그룹사이트</option>
         <option>SPC전자사보</option>

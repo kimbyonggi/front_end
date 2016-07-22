@@ -61,70 +61,156 @@
     height: 47px;
     border-top: 1px solid #e2d9d6;
     border-bottom: 2px solid #3f291a;
+    position: relative;
 }
 
 .nav-member{
     float: left;
-    margin-top: 0px;
+    margin-top: 19px;
 }
 
 
 .nav-member-item{
     float: left;
-    margin-right: 0px;
 }
 
 .nav-member-link{
     display: block;
     text-indent: -99999em;
-    height: 12px;
+    height: 8px;
     background: url(../images2/gnb_menu.png) no-repeat;
 }
 
-.login
+.nav-member-link.login{
+    width: 35px;
+    background-position: 0 0;
+    margin-right: 46px;
+}
 
-/* 임시 안보임 */
+.nav-member-link.join{
+    width: 27px;
+    background-position: -98px 0;
+}
+/* [D] 로그인이 되었을떄 표시*/
+.nav-member-link.logout{
+    width: 47px;
+    background-position: 0 -46px;
+    margin-right: 46px;
+}
 
-.gnb-depth2{
-    display: none;
+.nav-member-link.mypage{
+    width: 51px;
+    background-position: -41px 0;
 }
 
 .gnb{
     float: right;
+    margin-top: 17px;
 }
 
 .gnb-depth1-item{
     float: left;
+    margin-left: 60px;
+    text-align: center;
+    position: relative;
 }
 
 .gnb-depth1-link{
-    display: block;
+    display: inline-block;
     text-indent: -99999em;
     height: 12px;
     background: url(../images2/gnb_menu.png) no-repeat;
 }
 
-.flavor{
+.gnb-depth1-item.flavor{
+    width: 355px;
+}
+
+.gnb-depth1-item.menu{
+    width: 112px;
+    margin-left: 10px;
+}
+
+.gnb-depth1-item.event{
+    width: 84px;
+}
+
+.gnb-depth1-item.store{
+    width: 57px;
+}
+
+.gnb-depth1-item.about{
+    width: 86px;
+}
+
+.gnb-depth1-link.flavor{
     width: 166px;
     background-position: -132px 0;
 }
 
-.menu{
+.gnb-depth1-link.menu{
     width: 42px;
     background-position: -416px 0;
 }
 
-.event{
+.gnb-depth1-link.event{
     width: 43px;
     background-position: -576px 0;
 }
 
-.store{
+.gnb-depth1-link.store{
     width: 43px;
     background-position: -736px 0;
 }
 
-.about{
+.gnb-depth1-link.about{
     width: 50px;
     background-position: -896px 0;
+}
+
+.gnb-depth2{
+    position: absolute;
+    margin-top: 60px;
+    z-index: 10;
+    display: none;
+}
+
+.gnb-depth2.img{
+    margin-top: 20px;
+}
+
+.gnb-depth2-item{
+    margin-bottom: 20px;
+}
+
+.gnb-depth2-link{
+    display: block;
+    font-size: 14px;
+}
+
+.gnb-depth2.img1{
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.gnb-bg{
+    background-color: white;
+    height: 274px;
+    border-bottom: 1px solid #3f291a;
+    position: absolute;
+    width: 100%;
+    top: 49px;
+    left: 0;
+    z-index: auto;
+    display: none;
+}
+
+.btn-search{
+    background: url(../images2/icon_search.png) no-repeat;
+    display: block;
+    width: 54px;
+    height: 54px;
+    text-indent: -99999em;
+    border: none;
+    cursor: pointer;
 }
