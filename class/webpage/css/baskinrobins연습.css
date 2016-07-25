@@ -56,12 +56,17 @@
     top: 39px;
     right: 0;
 }
+/* ¸Þ´º */
+.nav-wrap{
+    position: relative;
+}
 
 .nav{
     height: 47px;
     border-top: 1px solid #e2d9d6;
-    border-bottom: 2px solid #3f291a;
+    border-bottom: 1px solid #3f291a;
     position: relative;
+    z-index: 10;
 }
 
 .nav-member{
@@ -105,7 +110,6 @@
 
 .gnb{
     float: right;
-    margin-top: 17px;
 }
 
 .gnb-depth1-item{
@@ -120,6 +124,7 @@
     text-indent: -99999em;
     height: 12px;
     background: url(../images2/gnb_menu.png) no-repeat;
+    padding: 17px 0 18px;
 }
 
 .gnb-depth1-item.flavor{
@@ -145,38 +150,38 @@
 
 .gnb-depth1-link.flavor{
     width: 166px;
-    background-position: -132px 0;
+    background-position: -132px 17px;
 }
 
 .gnb-depth1-link.menu{
     width: 42px;
-    background-position: -416px 0;
+    background-position: -416px 17px;
 }
 
 .gnb-depth1-link.event{
     width: 43px;
-    background-position: -576px 0;
+    background-position: -576px 17px;
 }
 
 .gnb-depth1-link.store{
     width: 43px;
-    background-position: -736px 0;
+    background-position: -736px 17px;
 }
 
 .gnb-depth1-link.about{
     width: 50px;
-    background-position: -896px 0;
+    background-position: -896px 17px;
 }
 
 .gnb-depth2{
     position: absolute;
-    margin-top: 60px;
+    margin-top: 40px;
     z-index: 10;
     display: none;
 }
 
 .gnb-depth2.img{
-    margin-top: 20px;
+    margin-top: 0;
 }
 
 .gnb-depth2-item{
@@ -195,14 +200,13 @@
 
 .gnb-bg{
     background-color: white;
-    height: 274px;
+    /*height: 274px;*/
+    height: 0;
     border-bottom: 1px solid #3f291a;
     position: absolute;
     width: 100%;
-    top: 49px;
+    top: 48px;
     left: 0;
-    z-index: auto;
-    display: none;
 }
 
 .btn-search{
@@ -213,4 +217,23 @@
     text-indent: -99999em;
     border: none;
     cursor: pointer;
+}
+
+.banner-top{
+    display: block;
+    height: 150px;
+    text-indent: -99999em;
+    margin-bottom: 3px;
+    background: #54bdec url(../images2/img_flaovr_month_top.jpg) no-repeat 50% 0;
+}
+
+.banner-bottom{
+    display: block;
+    height: 697px;
+    text-indent: -99999em;
+    background: #f0eb1d url(../images2/img_main_banner_2.jpg) no-repeat 50% 0;
+}
+
+.br-event-heading{
+
 }
