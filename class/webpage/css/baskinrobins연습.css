@@ -74,7 +74,6 @@
     margin-top: 19px;
 }
 
-
 .nav-member-item{
     float: left;
 }
@@ -235,5 +234,154 @@
 }
 
 .br-event-heading{
-
+    width: 87px;
+    height: 14px;
+    margin: 100px auto 50px;
+    text-indent: -99999em;
+    background: url(../images2/h_event.png) no-repeat;
 }
+
+.event-list:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.event-list-item{
+    float: left;
+    margin-right: 16px;
+    width: 288px;
+}
+
+.event-list-item.last{
+    margin-right: 0;
+}
+
+/* 가상 selector를 쓰는 방법 */
+
+/*
+
+1. last-cild
+
+.event-list-item:last-child{
+    margin-right: 0;
+}
+
+2. first-cild
+
+.event-list-item{
+    float: left;
+    margin-left: 16px;
+}
+
+.event-list-item:first-child{
+    margin-left: 0;
+}
+
+*/
+
+.event-list-item .event-list-item-module .event-list-item-title img{
+    width: 288px;
+}
+
+.event-list-item-text{
+    margin-top: 20px;
+}
+
+/* 가상 selector를 쓰는 방법2 */
+
+.event-list-item-text:nth-child(3){
+    height: 54px;
+    font-size: 17px;
+    line-height: 1.6;
+    word-break: break-all;
+    text-align: justify;
+}
+
+.event-list-item-text:nth-child(3) a{
+    color: #000;
+}
+
+.ir-store-event{
+    width: 114px;
+    height: 22px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images2/stit_store.gif) no-repeat;
+}
+
+.ir-happypoint-event{
+    width: 148px;
+    height: 22px;
+    display: block;
+    text-indent: -99999em;
+    background: url(../images2/stit_happypoint.gif) no-repeat;
+}
+
+.br-menu{
+    background: url(../images2/bg_menu.jpg) no-repeat 50% 0;
+    margin-top: 100px;
+}
+
+.br-menu-list{
+    height: 1065px;
+    text-indent: -99999em;
+    background: url(../images2/img_menu_list.png) no-repeat;
+}
+
+.br-menu-heading{
+    width: 84px;
+    height: 14px;
+    padding: 78px 0 0;
+    margin: 0 auto;
+    text-indent: -99999em;
+    background: url(../images2/h_menu.png) no-repeat 0 78px;
+}
+
+.br-store-heading{
+    width: 87px;
+    height: 14px;
+    padding: 95px 0 50px;
+    margin: 0 auto;
+    text-indent: -99999em;
+    background: url(../images2/h_store.png) no-repeat 0 95px;
+}
+
+.br-store,
+.happyorder{
+    width: 600px;
+    float: left;
+}
+
+.happyorder-heading{
+    width: 244px;
+    height: 14px;
+    padding: 95px 0 50px;
+    margin: 0 auto;
+    text-indent: -99999em;
+    background: url(../images2/h_happyorder_delivery.png) no-repeat 0 95px;
+}
+
+.br-store-link{
+    display: block;
+    width: 600px;
+    height: 260px;
+    text-indent: -99999em;
+    background: url(../images2/img_store.jpg)no-repeat;
+}
+
+.happyorder-link{
+    display: block;
+    width: 600px;
+    height: 260px;
+    text-indent: -99999em;
+    background: url(../images2/img_happyorder_delivery.jpg)no-repeat;
+}
+
+
+.clearfix:after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
