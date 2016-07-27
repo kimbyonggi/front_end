@@ -378,10 +378,107 @@
     background: url(../images2/img_happyorder_delivery.jpg)no-repeat;
 }
 
+.snsbox-heading{
+    width: 36px;
+    height: 13px;
+    padding: 95px 0 50px;
+    margin: 0 auto;
+    text-indent: -99999em;
+    background: url(../images2/h_sns.png) no-repeat 0 95px;
+}
+
+.snsbox-list{
+    width: 328px;
+    margin: 0 auto 35px;
+}
+
+.snsbox-item{
+    float: left;
+    margin: 0 10px;
+}
+
+.insta-list-item{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+
+.insta-list-item a{
+    display: block;
+}
+
+.insta-list-item img{
+    width: 200px;
+    height: 200px;
+    display: block;
+}
 
 .clearfix:after{
     content: "";
     display: block;
     clear: both;
 }
+
+.footer{
+    border-top: 1px solid #feaf2b;
+    margin-top: 150px;
+}
+
+.terms-list-item{
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 77px;
+}
+
+.aliiance-list{
+    margin-top: 22px;
+    text-align: center;
+    background-color: #f9f8f7;
+}
+
+.aliiance-list-item{
+    display: inline-block;
+    margin-right: 40px;
+}
+
+.footer-logo{
+    margin: 48px 0 35px;
+    text-align: center;
+}
+
+.address{
+    text-align: center;
+}
+
+.bottom-line{
+    margin-top: 10px;
+}
+
+.address-item{
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.address-item:last-child{
+    padding-right: 0;
+}
+
+.copyright{
+    text-align: center;
+    margin: 20px 0 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
