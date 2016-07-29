@@ -1,69 +1,241 @@
 .header{
-  height: 33px;
-  position: relative;
-  margin: 0 auto;
-  background: #01aeb2;
+  position:relative;
+  height: 117px;
 }
 
-.small-wrap{
-  width: 1200px;
-  margin: 0 auto;
+.inner{
+  width:1094px;
+  margin:0 auto;
   position: relative;
 }
 
 .logo{
   position: absolute;
-  top: 10px;
+  top: 50px;
   left: 0;
 }
 
-.util-box{
-  position: relative;
-  width: 100%;
+/*잠시 안보이게하는것*/
+
+.gnb{
+  display: none;
 }
 
-.util-language{
+.util{
+  width:100%;
+  height:33px;
+  position:absolute;
+  top:0;
+  left:0;
+  background:#01aeb2;
+}
+
+.util-lang{
   float: left;
 }
 
-.util-item{
+.util-lang-item{
+  height: 33px;
   float: left;
-  padding: 10px 9px;
-  border-right: 1px solid white;
-  margin: auto 0;
+  border-right: 1px solid #4ec6c9;
 }
 
-.util-link{
+.util-lang-item:first-child{
+  border-left: 1px solid #4ec6c9;
+}
+
+.util-lang-link{
   display: block;
-  width: 100px;
-  height: 12px;
-  color: white;
-  line-height: 10px;
+  height: 33px;
   text-align: center;
+  line-height: 33px;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 10px;
 }
 
-.util-box2{
-  position: absolute;
-  top: 10px;
-  right: 0;
+.util-right{
+  float: right;
 }
 
-.util-cs{
-
+.util-general{
+  float: left;
 }
 
-.util-cs:after{
+.util-general-item{
+  float: left;
+}
+
+.util-general-item:after{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 7px;
+  background: #4ec6c9;
+  margin-bottom: 1px;
+}
+
+.util-general-link{
+  display: inline-block;
+  height: 33px;
+  text-align: center;
+  line-height: 33px;
+  color: #fff;
+  font-size: 11px;
+  padding: 0 10px;
+}
+
+.util-general-item:last-child:after{
+  display: none;
+}
+
+.portal-link{
+  float: left;
+  display: block;
+  width: 104px;
+  height: 33px;
+  text-align: center;
+  line-height: 31px;
+  background: #237491;
+  font-weight: bold;
+  color: #fff;
+  font-size: 11px;
+  letter-spacing: -1px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  position: relative;
+}
+
+.portal-link:before{
   content: "";
   display: block;
-  clear: both;
+  position: absolute;
+  top: 8px;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  background: url(../images/top_portal_icon.gif);
 }
 
-.cs-item{
+.search{
   float: left;
+  margin: 4px 0 0 10px;
+}
+
+.search-heading{
+  display: none;
+}
+
+.search-input{
+  display: block;
+  float: left;
+  width: 125px;
+  height: 24px;
+  background: #dedede;
+  border: 1px solid #cacaca;
+  border-right: 0;
+  box-sizing: border-box;
   font-size: 11px;
+  padding-left: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #333;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #333;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #333;
+}
+:-moz-placeholder { /* Firefox 18- */
+  color: #333;
+}
+
+.search-button{
+  float: left;
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/btn_search.png)no-repeat #dedede 0 2px;
+  text-indent: -99999em;
+  border: 1px solid #cacaca;
+  border-left: 0;
+  box-sizing: border-box;
+}
+
+.banner-top{
+  width: 2000px;
+  height: 158px;
+  background: url(../images/sub_visual01.jpg)no-repeat;
+  margin: 0 auto;
+}
+
+.banner-top-heading1{
+  position: absolute;
+  top: 65px;
+  left: 400px;
+  font-size: 18px;
+  color: #fff;
+}
+
+.banner-top-heading2{
+  position: absolute;
+  top: 90px;
+  left: 400px;
+  font-weight: bold;
+  font-size: 40px;
+  color: #000;
+}
+
+.lnb{
+  float: left;
+  width: 237px;
+  margin: 36px 42px 0 0;
+  /*display: none;*/
+}
+
+.page{
+  float: left;
+  width: 815px;
+}
+
+.location{
+  margin: 10px 0;
+}
+
+.location:before{
+  content: "";
+  display: inline-block;
+  top: 0;
+  left: 0;
+  width: 16px;
+  height: 16px;
+  background: url(../images/icon_home.jpg);
+}
+
+.location-text{
+  display: inline-block;
   margin-left: 20px;
 }
 
-.fieldset{
-  float: left;
+.page-title{
+  font-size: 2.5em;
+  color: #111;
+  font-weight: bold;
+  padding: 16px 0;
+  width: 100%;
+}
+
+
+
+
+
+
+
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
 }
