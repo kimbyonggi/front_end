@@ -177,7 +177,7 @@
 .section-left{
   float: left;
   width: 310px;
-  height: 524px;
+  height: 544px;
 }
 
 .participation{
@@ -200,24 +200,12 @@
 }
 
 .participation-depth-bg{
-  position: absolute;
-  top: -7px;
-  left: -36px;
-}
-
-.participation-depth-link{
-  display: block;
-  width: 238px;
-  height: 168px;
-  text-indent: -99999em;
-  background: url(../imges/mBanSave_bg.jpg)no-repeat 50% 0;
-  margin-top: 8px;
+  margin-left:-36px;
+  background: url(../imges/mBanSave_bg.jpg)no-repeat 50% 8px;
 }
 
 .participation-depth-item{
-  position: absolute;
-  top: 190px;
-  left: 0;
+  margin-top: 22px;
 }
 
 .participation-depth-link2{
@@ -227,15 +215,72 @@
 }
 
 .participation-depth-item-text{
-  position: absolute;
-  top: 190px;
-  left: 230px;
+  margin-top: 12px;
 }
 
 .participation-depth-link3{
   font-size: 13px;
   color: #666666;
   line-height: 18px;
+}
+
+.participation-link{
+  display: block;
+  width: 295px;
+  height: 69px;
+  text-indent: -99999em;
+  background: url(../imges/togetherTx0.gif)no-repeat;
+  margin-top: 40px;
+}
+
+.section-right{
+  width: 710px;
+  height: 544px;
+  float: left;
+  margin-left: 35px;
+}
+
+.safemovebox{
+  position: relative;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #333;
+}
+
+.safemove-depth{
+  float: left;
+  margin-left: 10px;
+}
+
+.safemove-depth:first-child{
+  margin-left: 0;
+}
+
+.safemove-depth-link-text{
+  display: block;
+  margin-top: 10px;
+  padding-left: 13px;
+  color: #333;
+  font-size: 16px;
+  background: url(../imges/yellow1x15_bar.gif)no-repeat 0 4px;
+}
+
+.safemove-depth-link{
+  display: block;
+  width: 106px;
+  height: 14px;
+  text-indent: -99999em;
+  position: absolute;
+  top: 270px;
+  left: 345px;
+  background: url(../imges/photoGoTx.png)no-repeat;
+}
+
+.safemove-depth-img{
+  float: left;
+  display: block;
+  width: 222px;
+  height: 284px;
+  margin-left: 34px;
 }
 
 
