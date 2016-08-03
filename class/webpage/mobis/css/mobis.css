@@ -153,6 +153,7 @@
   text-indent: -99999em;
   background: url(../imges/mBanL_bt.png)no-repeat;
   border: 0;
+  cursor: pointer;
 }
 
 .banner-header{
@@ -172,6 +173,7 @@
   text-indent: -99999em;
   background: url(../imges/mBanR_bt.png)no-repeat;
   border: 0;
+  cursor: pointer;
 }
 
 .section-left{
@@ -283,10 +285,167 @@
   margin-left: 34px;
 }
 
+.report{
+  width: 710px;
+  height: 217px;
+}
 
+.report-heading{
+  width: 112px;
+  height: 18px;
+  margin: 25px 0 25px;
+  text-indent: -99999em;
+  background: url(../imges/mNews_tit.png)no-repeat;
+}
 
+.report-depth{
+  float: left;
+  width: 330px;
+  margin-left: 40px;
+}
 
+.report-depth:nth-child(2){
+  margin-left: 0;
+}
 
+.report-depth-heading{
+  padding-top: 10px;
+  background: url(../imges/grayTop20x2_bar.gif)no-repeat;
+}
+
+.report-depth-link{
+  font-size: 18px;
+  color: #333333;
+}
+
+.report-depth-new{
+  display: inline-block;
+  width: 15px;
+  height: 16px;
+  text-indent: -99999em;
+  background: url(../imges/mNewsBu.gif)no-repeat;
+}
+
+.report-depth-text{
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.report-depth-textlink{
+  display: block;
+  margin-top: 14px;
+  color: #777;
+  font-size: 13px;
+  line-height: 22px;
+}
+
+.contribution{
+  height: 384px;
+  background: #f7f7f7;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contribution-heading{
+  width: 88px;
+  height: 15px;
+  text-indent: -99999em;
+  background: url(../imges/mCsr_tit.png)no-repeat 0 38px;
+  margin: 0 auto;
+  padding-top: 38px;
+}
+
+.btn-left{
+  float: left;
+  display: block;
+  width: 24px;
+  height: 45px;
+  text-indent: -99999em;
+  border: 0;
+  background: url(../imges/mRotateL_bt.png)no-repeat;
+  margin: 120px 0 0;
+  cursor: pointer;
+}
+
+.icon-continal{
+  float: left;
+  display: inline-block;
+  margin: 40px 59px;
+}
+
+.icon-box{
+  width: 893px;
+  margin: 0 auto;
+}
+
+.mCsrIcon-item{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.mCsrIcon-item:first-child{
+  margin-left: 0;
+}
+
+.mCsrIcon1{
+  display: block;
+  width: 190px;
+  height: 255px;
+  text-indent: -99999em;
+  background: url(../imges/mCsrIcon1.png)no-repeat;
+}
+
+.mCsrIcon1:hover{
+  background:  url(../imges/mCsrIcon1_on.png)no-repeat;
+}
+
+.mCsrIcon2{
+  display: block;
+  width: 190px;
+  height: 255px;
+  text-indent: -99999em;
+  background: url(../imges/mCsrIcon2.png)no-repeat;
+}
+
+.mCsrIcon2:hover{
+  background:  url(../imges/mCsrIcon2_on.png)no-repeat;
+}
+
+.mCsrIcon3{
+  display: block;
+  width: 190px;
+  height: 255px;
+  text-indent: -99999em;
+  background: url(../imges/mCsrIcon3.png)no-repeat;
+}
+
+.mCsrIcon3:hover{
+  background:  url(../imges/mCsrIcon3_on.png)no-repeat;
+}
+
+.mCsrIcon4{
+  display: block;
+  width: 190px;
+  height: 255px;
+  text-indent: -99999em;
+  background: url(../imges/mCsrIcon4.png)no-repeat;
+}
+
+.mCsrIcon4:hover{
+  background:  url(../imges/mCsrIcon4_on.png)no-repeat;
+}
+
+.btn-right{
+  float: right;
+  display: block;
+  width: 24px;
+  height: 45px;
+  text-indent: -99999em;
+  border: 0;
+  background: url(../imges/mRotateR_bt.png)no-repeat;
+  margin: 120px 0 0;
+  cursor: pointer;
+}
 
 
 
