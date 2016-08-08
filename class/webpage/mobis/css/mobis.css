@@ -624,6 +624,10 @@
   color: #aeaeae;
 }
 
+.terms_box{
+  float: left;
+}
+
 .terms{
   float: left;
   font-size: 14px;
@@ -656,13 +660,67 @@
   color: #aeaeae;
 }
 
-.select-box{
-  float: left;
+.Copyright{
+  display: block;
+  width: 331px;
+  margin: 30px 0 0;
 }
 
-.Copyright{
-  margin-top: 30px;
+.select-box{
+  float: right;
+  position: relative;
 }
+
+.select-btn{
+  display: inline-block;
+  padding: 0 26px 0 12px;
+  width: 152px;
+  height: 35px;
+  line-height: 35px;
+  text-align: left;
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid #020202;
+  background:  url(../imges/famBt_bu.gif)no-repeat right;
+  cursor: pointer;
+}
+
+.select_depth{
+  display: none;
+ /* display: block;*/
+  width: 150px;
+  height: 160px;
+  position: absolute;
+  bottom: 33px;
+  background: #323232;
+  border: 1px solid #020202;
+}
+
+.select_depth_item{
+  line-height: 18px;
+  padding: 3px 12px;
+}
+
+.select_depth_link{
+  color: #fff;
+  font-size: 13px;
+  vertical-align: middle;
+}
+
+.select-button{
+  display: inline-block;
+  width: 53px;
+  height: 33px;
+  line-height: 31px;
+  text-align: center;
+  color: #fff;
+  font-size: 13px;
+  border: 1px solid #020202;
+  background: #111111;
+}
+
+
+
 
 
 
