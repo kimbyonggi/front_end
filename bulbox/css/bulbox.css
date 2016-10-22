@@ -1,0 +1,173 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.clearfix:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.inner{
+  width: 1400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.header{
+  height: 118px;
+  position: relative;
+}
+
+.header_top{
+  width: 100%;
+  height: 60px;
+  background-color: #E7911F;
+  position: fixed;
+}
+
+.logo{
+  width: 134px;
+  height: 34px;
+  text-indent: -99999em;
+  background: url("../images/Untitled-1-07.png")no-repeat;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  margin-left: -27px;
+}
+
+.logolink{
+  display: block;
+  width: 134px;
+  height: 34px;
+}
+
+.notice{
+  width: 223px;
+  height: 19px;
+  position: absolute;
+  top: 21px;
+  left: 30px;
+}
+
+.notice_depth_link{
+  color: white;
+  float: left;
+}
+
+.notice_depth_btn{
+  display: block;
+  width: 16px;
+  height: 16px;
+  float: left;
+  margin-left: 30px;
+}
+
+.util{
+  width: 365px;
+  height: 34px;
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.util li:last-child{
+  padding-right: 0;
+}
+
+.util_depth1{
+  color: white;
+  float: left;
+  padding-right: 10px;
+  margin-top: 10px;
+  border-right: 1px solid white;
+  margin-right: 10px;
+}
+
+.util_depth_search{
+  float: left;
+  width: 31px;
+  height: 31px;
+}
+
+.util_depth_btn{
+  display: block;
+  width: 31px;
+  height: 31px;
+  text-indent: -99999em;
+  background: url("../images/Untitled-2-01.png")no-repeat;
+  border: none;
+  cursor: pointer;
+}
+
+.util_depth1_basket{
+  display: block;
+  width: 30px;
+  height: 34px;
+  text-indent: -99999em;
+  background: url("../images/Untitled-2-02.png")no-repeat;
+  float: left;
+  margin-left: 10px;
+}
+
+.header_btm{
+  width: 100%;
+  height: 57px;
+  position: fixed;
+  top: 60px;
+}
+
+.util_sns{
+  width: 147px;
+  margin-top: 9px;
+}
+
+.util_sns_depth1{
+  float: left;
+}
+
+.util_sns_link1{
+  display: block;
+  width: 39px;
+  height: 39px;
+  text-indent: -99999em;
+  background: url("../images/sns-01.png")no-repeat;
+  float: left;
+  margin-left: 10px;
+}
+
+.util_sns_link2{
+  display: block;
+  width: 39px;
+  height: 39px;
+  text-indent: -99999em;
+  background: url("../images/sns-01.png")no-repeat -46px 0 ;
+  float: left;
+  margin-left: 10px;
+}
+
+.util_sns_link3{
+  display: block;
+  width: 39px;
+  height: 39px;
+  text-indent: -99999em;
+  background: url("../images/sns-01.png")no-repeat -93px 0 ;
+  float: left;
+  margin-left: 10px;
+}
+
+.gnb{
+  float: left;
+}
+
+.gnb_depth1
+
+section{
+  display: none;
+}
+footer{
+  display: none;
+}
