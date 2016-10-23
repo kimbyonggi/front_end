@@ -5,17 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e3f9d68-ca92-4cf5-b9dd-c3678e9515ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_02_operator.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/begining.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bulbox/css/bulbox.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bulbox/bulbox.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/ex/ex1.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/font_test/font_test.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.min.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bulbox/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/webpage/ssgpay/css/reset.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/ssgpay/ssgpay.html" afterPath="$PROJECT_DIR$/class/webpage/ssgpay/ssgpay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bulbox/css/bulboxshop.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bulbox/bulboxshop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulbox/images/Untitled-1-01.png" afterPath="$PROJECT_DIR$/bulbox/images/Untitled-1-01.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulbox/images/Untitled-1-02.png" afterPath="$PROJECT_DIR$/bulbox/images/Untitled-1-02.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulbox/images/Untitled-1-03.png" afterPath="$PROJECT_DIR$/bulbox/images/Untitled-1-03.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulbox/images/Untitled-1-04.png" afterPath="$PROJECT_DIR$/bulbox/images/Untitled-1-04.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulbox/css/bulbox.css" afterPath="$PROJECT_DIR$/bulbox/css/bulbox.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bulbox/bulbox.html" afterPath="$PROJECT_DIR$/bulbox/bulbox.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
@@ -36,44 +33,24 @@
     <favorites_list name="front_end" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.41713926">
       <split-first>
         <leaf>
-          <file leaf-file-name="bulbox.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="bulbox.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bulbox/bulbox.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.48226163">
-                  <caret line="64" column="27" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="27" />
+                <state vertical-scroll-proportion="-13.791667">
+                  <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="alba.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/class/webpage/alba/alba.html">
+          <file leaf-file-name="bulboxshop.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bulbox/bulboxshop.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-30.625">
-                  <caret line="106" column="42" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="mobis.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/class/webpage/mobis/mobis.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-11.875">
-                  <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="baskinrobbins 연습.html" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/class/webpage/baskin/baskinrobbins 연습.html">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+                <state vertical-scroll-proportion="0.01664817">
+                  <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -83,11 +60,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="bulbox.css" pinned="false" current-in-tab="true">
+          <file leaf-file-name="bulbox.css" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/bulbox/css/bulbox.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.82181424">
-                  <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="bulboxshop.css" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxshop.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.6594595">
+                  <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -98,6 +85,16 @@
               <provider selected="true" editor-type-id="text-editor">
                 <state vertical-scroll-proportion="0.0">
                   <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="alba.css" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/class/webpage/alba/css/alba.css">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="364" column="1" selection-start-line="350" selection-start-column="0" selection-end-line="364" selection-end-column="1" />
                   <folding />
                 </state>
               </provider>
@@ -122,8 +119,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/class/css/practice/layout2.html" />
-        <option value="$PROJECT_DIR$/class/css/practice/layout3.html" />
         <option value="$PROJECT_DIR$/class/css/practice/layout3.css" />
         <option value="$PROJECT_DIR$/class/css/practice/layout4.html" />
         <option value="$PROJECT_DIR$/class/css/practice/layout4.css" />
@@ -171,8 +166,10 @@
         <option value="$PROJECT_DIR$/class/js/ex/ex1.html" />
         <option value="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.js" />
         <option value="$PROJECT_DIR$/class/js/basic/begining.html" />
-        <option value="$PROJECT_DIR$/bulbox/bulbox.html" />
         <option value="$PROJECT_DIR$/bulbox/css/bulbox.css" />
+        <option value="$PROJECT_DIR$/bulbox/bulbox.html" />
+        <option value="$PROJECT_DIR$/bulbox/bulboxshop.html" />
+        <option value="$PROJECT_DIR$/bulbox/css/bulboxshop.css" />
       </list>
     </option>
   </component>
@@ -184,10 +181,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="64" />
-    <option name="y" value="23" />
+    <option name="x" value="772" />
+    <option name="y" value="17" />
     <option name="width" value="1923" />
-    <option name="height" value="1084" />
+    <option name="height" value="1083" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -451,6 +448,46 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="class" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="html" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="element" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="front_end" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="bulbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -578,7 +615,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="23" width="1923" height="1084" extended-state="0" />
+    <frame x="772" y="17" width="1923" height="1083" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17480315" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -635,27 +672,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class/css/practice/layout/layout_4.hrml.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3215637">
-          <caret line="17" column="34" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/css/practice/layout/layout_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.09457755">
-          <caret line="5" column="46" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/css/practice/layout/layout_2.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.74296206">
-          <caret line="72" column="33" selection-start-line="72" selection-start-column="33" selection-end-line="72" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/css/practice/layout/layout_2.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.09457755">
@@ -809,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/html/element/element.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="211" column="124" selection-start-line="211" selection-start-column="2" selection-end-line="211" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/vidio/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -942,14 +951,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/webpage/mobis/mobis.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.875">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/ssgpay/ssgpay.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.5">
@@ -958,42 +959,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/class/webpage/alba/css/alba.css">
+    <entry file="file://$PROJECT_DIR$/class/webpage/mobis/mobis.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/hello_html.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="631" column="0" selection-start-line="631" selection-start-column="0" selection-end-line="635" selection-end-column="1" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/html/element/element.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.016375545">
+          <caret line="211" column="124" selection-start-line="211" selection-start-column="2" selection-end-line="211" selection-end-column="124" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/baskin/baskinrobbins 연습.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
+        <state vertical-scroll-proportion="-3.75">
           <caret line="6" column="56" selection-start-line="6" selection-start-column="56" selection-end-line="6" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/class/webpage/alba/css/alba.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="364" column="1" selection-start-line="350" selection-start-column="0" selection-end-line="364" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/alba/alba.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-30.625">
-          <caret line="106" column="42" selection-start-line="106" selection-start-column="42" selection-end-line="106" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/bulbox.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48226163">
-          <caret line="64" column="27" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="27" />
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="56" column="23" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bulbox/css/bulbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82181424">
-          <caret line="165" column="11" selection-start-line="165" selection-start-column="11" selection-end-line="165" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="351" column="0" selection-start-line="351" selection-start-column="0" selection-end-line="351" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulbox/bulbox.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.791667">
+          <caret line="302" column="0" selection-start-line="302" selection-start-column="0" selection-end-line="302" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxshop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6594595">
+          <caret line="196" column="0" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bulbox/bulboxshop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.01664817">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding />
         </state>
       </provider>

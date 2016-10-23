@@ -1,3 +1,5 @@
+/** 머리 **/
+
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
 body {
@@ -19,6 +21,7 @@ body {
 .header{
   height: 118px;
   position: relative;
+  z-index: 100;
 }
 
 .header_top{
@@ -79,12 +82,15 @@ body {
 }
 
 .util_depth1{
-  color: white;
   float: left;
   padding-right: 10px;
   margin-top: 10px;
   border-right: 1px solid white;
   margin-right: 10px;
+}
+
+.util_depth1>a{
+  color: white;
 }
 
 .util_depth_search{
@@ -118,11 +124,13 @@ body {
   height: 57px;
   position: fixed;
   top: 60px;
+  background-color: white;
 }
 
 .util_sns{
   width: 147px;
   margin-top: 9px;
+  float: left;
 }
 
 .util_sns_depth1{
@@ -161,13 +169,260 @@ body {
 
 .gnb{
   float: left;
+  margin-top: 20px;
+  margin-left: 426px;
 }
 
-.gnb_depth1
+.gnb_depth1_item{
+  float: left;
+  margin-left: 20px;
+}
 
-section{
-  display: none;
+.notice_2{
+  float: right;
+  margin-top: 12px;
 }
-footer{
-  display: none;
+
+.notice_link{
+  display: block;
+  width: 155px;
+  height: 35px;
 }
+
+/** 머리 **/
+
+/** 내용 **/
+
+.cont{
+  background-color: #F4F4F4;
+}
+
+.containal{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.banner{
+  float: left;
+  position: relative;
+}
+
+.EVENTLIGHTS_link1{
+  display: block;
+  width: 600px;
+  height: 600px;
+}
+
+.btn-pagebox{
+  position: absolute;
+  top: 10px;
+  left: 300px;
+  margin-left: -39px;
+}
+
+.btn-page{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  text-indent: -99999em;
+  background: url(../images/w_visual_btnBg.png)no-repeat -22px -81px;
+  margin-left: 4px;
+}
+
+.banner-img2{
+  float: left;
+  display: block;
+}
+
+.banner-img2_link1{
+  display: block;
+  width: 400px;
+  height: 600px;
+}
+
+.banner-img2_link2{
+  display: block;
+  width: 200px;
+  height: 300px;
+}
+
+.banner-video{
+  float: left;
+  width: 600px;
+  height: 360px;
+}
+
+.banner_cub{
+  position: relative;
+  width: 400px;
+  height: 360px;
+}
+
+.btn-pagebox2{
+  position: absolute;
+  top: 10px;
+  left: 200px;
+  margin-left: -39px;
+}
+
+.btn-page2{
+  display: inline-block;
+  width: 13px;
+  height: 13px;
+  text-indent: -99999em;
+  background: url(../images/w_visual_btnBg.png)no-repeat -22px -81px;
+  margin-left: 4px;
+}
+
+.banner_cub_list1{
+  width: 400px;
+  height: 360px;
+  background-color: #E7911F;
+}
+
+.banner_cub_list1>strong,
+.banner_cub_list2>strong{
+  display: block;
+  color: white;
+  font-size: 35px;
+  font-weight: bold;
+  margin: 0 0 20px 20px;
+  padding-top: 100px;
+}
+
+.banner_cub_list1>p, em,
+.banner_cub_list2>p, em{
+  color: white;
+  font-size: 20px;
+  margin: 30px 0 0 20px;
+}
+
+.banner_cub_list1>em,
+.banner_cub_list2>em{
+  display: block;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.banner_cub_list2{
+  width: 400px;
+  height: 360px;
+  background-color: #B31F23;
+}
+
+.banner-img2_font{
+  float: left;
+  display: block;
+  text-align: center;
+  width: 500px;
+  height: 200px;
+  padding: 80px 50px 80px 50px;
+  background-color: #B31F23;
+}
+
+.banner-img2_font>h3{
+  color: #E7911F;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.banner-img2_font>strong{
+  display: block;
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.banner-img2_font>p{
+  color: white;
+  font-size: 20px;
+}
+
+.link{
+  display: block;
+  width: 400px;
+}
+
+.link2{
+  display: block;
+  width: 200px;
+}
+
+/** 내용 **/
+
+/** 다리 **/
+
+.information{
+  padding-top: 50px;
+  text-align: center;
+}
+
+.information>h2{
+  text-indent: -99999em;
+  background: url("../images/logo2-01.png")no-repeat;
+  width: 76px;
+  height: 79px;
+  margin: 0 auto;
+}
+
+.information_logo{
+  display: block;
+  width: 76px;
+  height: 79px;
+}
+
+.information_text{
+  width: 400px;
+  margin: 20px auto;
+}
+
+.information_text_item{
+  float: left;
+  padding-right: 10px;
+  border-right: 1px solid #333;
+  margin-right: 10px;
+}
+
+.information_text_item:last-child{
+  padding-right: 0;
+  border-right: 0;
+  margin-right: 0;
+}
+
+.information_text_link{
+  display: block;
+}
+
+.address{
+  padding: 20px 0;
+  border-top: 1px solid #888;
+  width: 630px;
+  margin: 0 auto;
+}
+
+.address_item{
+  float: left;
+  padding-right: 10px;
+  border-right: 1px solid #aaa;
+  margin-right: 10px;
+}
+
+.address1{
+  width: 530px;
+  margin: 0 auto;
+}
+
+.address_item:last-child{
+  padding-right: 0;
+  border-right: 0;
+  margin-right: 0;
+}
+
+.address2{
+  width: 600px;
+  margin: 10px auto 0;
+}
+
+
+/** 다리 **/
