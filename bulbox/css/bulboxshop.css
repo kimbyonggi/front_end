@@ -194,7 +194,10 @@ body {
 
 /** 내용 **/
 
-
+section,
+footer{
+  background-color: #F4F4F4;
+}
 
 /** 내용 **/
 
