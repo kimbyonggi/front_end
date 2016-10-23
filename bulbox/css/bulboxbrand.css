@@ -6,6 +6,10 @@ body {
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+body{
+  background-color: #F4F4F4;
+}
+
 .clearfix:after{
   content: "";
   display: block;
@@ -193,12 +197,152 @@ body {
 
 /** 내용 **/
 
-section,
-footer{
-  background-color: #F4F4F4;
+.vidio{
+  display: block;
+  width: 100%;
+  height: 1080px;
 }
 
+.textindent{
+  text-indent: -99999em;
+}
 
+.whybulbox{
+  width: 100%;
+  height: 850px;
+}
+
+.bulboxcont{
+  width: 1200px;
+  margin: 100px auto 0;
+}
+
+.bulbox{
+  width: 278px;
+  height: 439px;
+  float: left;
+  margin: auto 10px;
+}
+
+.whybulbox>h3{
+  text-align: center;
+  font-size: 80px;
+  margin-top: 150px;
+}
+
+.bulbox-item-img1{
+  width: 278px;
+  height: 439px;
+  text-indent: -99999em;
+  background: url("../images/bulboxbrand-01.png")no-repeat -278px 0;
+}
+
+.bulbox-item-img1:hover{
+  background: url("../images/bulboxbrand-01.png")no-repeat 0 0;
+}
+
+.bulbox-item-img2{
+  width: 278px;
+  height: 439px;
+  text-indent: -99999em;
+  background: url("../images/bulboxbrand-02.png")no-repeat -278px 0;
+}
+
+.bulbox-item-img2:hover{
+  background: url("../images/bulboxbrand-02.png")no-repeat 0 0;
+}
+
+.bulbox-item-img3{
+  width: 278px;
+  height: 439px;
+  text-indent: -99999em;
+  background: url("../images/bulboxbrand-03.png")no-repeat -278px 0;
+}
+
+.bulbox-item-img3:hover{
+  background: url("../images/bulboxbrand-03.png")no-repeat 0 0;
+}
+
+.bulbox-item-img4{
+  width: 278px;
+  height: 439px;
+  text-indent: -99999em;
+  background: url("../images/bulboxbrand-04.png")no-repeat -278px 0;
+}
+
+.bulbox-item-img4:hover{
+  background: url("../images/bulboxbrand-04.png")no-repeat 0 0;
+}
+
+.eventlight{
+  display: block;
+  width: 1200px;
+  height: 890px;
+  margin: 0 auto;
+}
+
+.bulboxappcont{
+  width: 1200px;
+  height: 890px;
+  margin: 50px auto;
+}
+
+.bulboxapp{
+  float: left;
+  width: 439px;
+  height: 852px;
+  background: url("../images/Untitled-5-02.png")no-repeat 28px 86px;
+}
+
+.bulboxappitem>h2{
+  float: left;
+  width: 448px;
+  height: 64px;
+  text-indent: -999999em;
+  background: url("../images/Untitled-5-03.png")no-repeat;
+  margin-left: 100px;
+  margin-top: 110px;
+}
+
+.bulboxappitem>p{
+  float: left;
+  width: 496px;
+  height: 20px;
+  text-indent: -999999em;
+  background: url("../images/Untitled-5-04.png")no-repeat;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.bulboxapptext1{
+  float: left;
+  width: 649px;
+  height: 89px;
+  text-indent: -999999em;
+  background: url("../images/Untitled-5-05.png")no-repeat;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.bulboxapptext2{
+  float: left;
+  width: 649px;
+  height: 89px;
+  text-indent: -999999em;
+  background: url("../images/Untitled-5-06.png")no-repeat;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+
+.bulboxapptext3{
+  float: left;
+  width: 649px;
+  height: 89px;
+  text-indent: -999999em;
+  background: url("../images/Untitled-5-07.png")no-repeat;
+  margin-left: 100px;
+  margin-top: 50px;
+}
 
 /** 내용 **/
 
