@@ -200,7 +200,8 @@ body {
 
 /** ���� **/
 
-.cont{
+section,
+footer{
   background-color: #F4F4F4;
 }
 
