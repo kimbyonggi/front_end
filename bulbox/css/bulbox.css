@@ -193,7 +193,8 @@ body {
 
 /** ³»¿ë **/
 
-.cont{
+section,
+footer{
   background-color: #F4F4F4;
 }
 
