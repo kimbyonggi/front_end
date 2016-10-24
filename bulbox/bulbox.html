@@ -6,9 +6,37 @@
 
   <link rel="stylesheet" href="css/reset.css"/>
   <link rel="stylesheet" href="css/bulbox.css"/>
+  <script src="js/lib/jquery-3.1.1.js"></script>
+  <script src="js/function.js"></script>
+
+  <style>
+
+
+  </style>
 
 </head>
 <body>
+<!--
+<div class="loader-wrap">
+  <div class="loader">
+    <div class="cube">
+      <div class="front"></div>
+      <div class="back"></div>
+      <div class="top"></div>
+      <div class="bottom"></div>
+      <div class="left"></div>
+      <div class="right"></div>
+    </div>
+  </div>
+  <div class="loader-text">Openning BulBox...</div>
+</div>
+
+<video id="intro" class="intro">
+  <source src="video/Main_1.mp4" type="video/mp4">
+</video>
+-->
+
+<div class="wrap">
 
 <header class="header">
 
@@ -86,72 +114,58 @@
 
 <section>
 
-  <div class="cont inner">
+  <div class="cont">
 
   <div class="containal">
 
     <ul class="banner-img clearfix">
 
-      <li>
+      <li class="banner-wrap">
 
         <ul class="banner">
 
-          <li>
+          <li class="banner-1">
 
-            <a href="#" class="EVENTLIGHTS_link1">
-
+            <a href="#" class="event-light-link1">
               <img src="images/Untitled-1-1-01.png" alt="EVENTLIGHTS">
-
             </a>
 
           </li>
 
-          <!-- 임시 가림
+          <li class="banner-2">
 
-          <li>
-
-            <a href="#" class="EVENTLIGHTS_link1">
-
+            <a href="#" class="event-light-link1">
               <img src="images/Untitled-1-1-02.png" alt="EVENTLIGHTS">
-
             </a>
 
           </li>
 
-          <li>
+          <li class="banner-3">
 
-            <a href="#" class="EVENTLIGHTS_link1">
-
+            <a href="#" class="event-light-link1">
               <img src="images/Untitled-1-1-03.png" alt="EVENTLIGHTS">
-
             </a>
 
           </li>
 
-          <li>
+          <li class="banner-4">
 
-            <a href="#" class="EVENTLIGHTS_link1">
-
+            <a href="#" class="event-light-link1">
               <img src="images/Untitled-1-1-04.png" alt="EVENTLIGHTS">
-
             </a>
-
-          </li>
-
-          -->
-
-          <li>
-
-            <div class="btn-pagebox">
-              <a href="#" class="btn-page">1page</a>
-              <a href="#" class="btn-page">2page</a>
-              <a href="#" class="btn-page">3page</a>
-              <a href="#" class="btn-page">4page</a>
-            </div>
 
           </li>
 
         </ul>
+
+        <div class="banner-control">
+          <div class="btn-pagebox">
+            <a href="#" class="btn-page current">1page</a>
+            <a href="#" class="btn-page">2page</a>
+            <a href="#" class="btn-page">3page</a>
+            <a href="#" class="btn-page">4page</a>
+          </div>
+        </div>
 
       </li>
 
@@ -189,28 +203,17 @@
 
         <video width="600" height="360">
 
-        <source src="vidio/Comp%202.mp4"  type="video/mp4" />
+        <source src="video/Comp%202.mp4"  type="video/mp4" />
 
         </video>
 
       </li>
 
-      <li class="banner-img2">
+      <li class="banner-img2 banner-wrap2">
 
         <ul class="banner_cub">
 
-          <li>
-
-            <div class="btn-pagebox2">
-              <a href="#" class="btn-page2">1page</a>
-              <a href="#" class="btn-page2">2page</a>
-              <a href="#" class="btn-page2">3page</a>
-              <a href="#" class="btn-page2">4page</a>
-            </div>
-
-          </li>
-
-          <li class="banner_cub_list1">
+          <li class="banner_cub_list1 banner-1">
 
             <strong>아기가너무 좋아해요</strong>
             <br/>
@@ -219,9 +222,7 @@
 
           </li>
 
-          <!--
-
-          <li class="banner_cub_list2">
+          <li class="banner_cub_list2 banner-2">
 
             <strong>조명이너무 이쁘네요</strong>
             <br/>
@@ -230,16 +231,16 @@
 
           </li>
 
-          <li class="banner_cub_list1">
+          <li class="banner_cub_list1 banner-3">
 
-          <strong>분위기가 너무 좋아요</strong>
-          <br/>
-          <p>카페에 설치를 해놓았는데<br/>손님들이 너무 좋아하셔서 하나더 구입할께요. </p>
-          <em>000님의 사용후기</em>
+            <strong>분위기가 너무 좋아요</strong>
+            <br/>
+            <p>카페에 설치를 해놓았는데<br/>손님들이 너무 좋아하셔서 하나더 구입할께요. </p>
+            <em>000님의 사용후기</em>
 
           </li>
 
-          <li class="banner_cub_list2">
+          <li class="banner_cub_list2 banner-4">
 
             <strong>집에두니 참보기 좋네요</strong>
             <br/>
@@ -248,9 +249,16 @@
 
           </li>
 
-          -->
-
         </ul>
+
+        <div class="banner-control">
+          <div class="btn-pagebox2">
+            <a href="#" class="btn-page2 current">1page</a>
+            <a href="#" class="btn-page2">2page</a>
+            <a href="#" class="btn-page2">3page</a>
+            <a href="#" class="btn-page2">4page</a>
+          </div>
+        </div>
 
       </li>
 
@@ -321,7 +329,7 @@
 
 <footer>
 
-  <div class="cont inner">
+  <div class="cont">
 
     <div class="information clearfix">
 
@@ -373,6 +381,8 @@
   </div>
 
 </footer>
+
+</div>
 
 </body>
 </html>
