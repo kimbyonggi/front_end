@@ -4,6 +4,9 @@
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
+}
+
+body{
   background-color: #F4F4F4;
 }
 
@@ -199,43 +202,27 @@ body {
 
 /** 머리 **/
 
-
 /** 내용 **/
 
-.event{
-  background: url("../images/shop-03.png")no-repeat;
-  width: 218px;
-  height: 54px;
-  text-indent: -99999em;
-}
-
-.btn{
-  background: url("../images/shop-02.png")no-repeat;
-  width: 657px;
-  height: 110px;
+.Membership{
+  background: url("../images/Membership-01-01.png")no-repeat;
+  width: 1280px;
+  height: 1252px;
   text-indent: -99999em;
   margin: 0 auto;
-  cursor: pointer;
 }
 
-.lightbox{
-  background: url("../images/shop-01.png")no-repeat;
-  width: 1280px;
-  height: 1195px;
-  text-indent: -99999em;
-  margin: 50px auto;
+.Membership:hover{
+  background-position: -1280px 0;
 }
 
-.lightbox-link{
+.Membership-link{
   display: block;
   width: 1280px;
-  height: 1195px;
+  height: 1252px;
 }
 
 /** 내용 **/
-
-
-
 
 /** 다리 **/
 

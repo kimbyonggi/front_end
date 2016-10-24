@@ -119,6 +119,13 @@ body {
   margin-left: 10px;
 }
 
+.util_depth1_basket-link{
+  display: block;
+  width: 30px;
+  height: 34px;
+}
+
+
 .header_btm{
   width: 100%;
   height: 57px;

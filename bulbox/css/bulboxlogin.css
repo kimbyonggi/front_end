@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  background-color: #F4F4F4;
 }
 
 .clearfix:after{
@@ -199,42 +198,23 @@ body {
 
 /** 머리 **/
 
-
 /** 내용 **/
 
-.event{
-  background: url("../images/shop-03.png")no-repeat;
-  width: 218px;
-  height: 54px;
-  text-indent: -99999em;
-}
-
-.btn{
-  background: url("../images/shop-02.png")no-repeat;
-  width: 657px;
-  height: 110px;
+.login{
+  background: url("../images/login-04.png")no-repeat;
+  width: 1280px;
+  height: 794px;
   text-indent: -99999em;
   margin: 0 auto;
-  cursor: pointer;
 }
 
-.lightbox{
-  background: url("../images/shop-01.png")no-repeat;
-  width: 1280px;
-  height: 1195px;
-  text-indent: -99999em;
-  margin: 50px auto;
-}
-
-.lightbox-link{
+.loginlink{
   display: block;
   width: 1280px;
-  height: 1195px;
+  height: 794px;
 }
 
 /** 내용 **/
-
-
 
 
 /** 다리 **/

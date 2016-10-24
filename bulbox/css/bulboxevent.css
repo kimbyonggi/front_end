@@ -4,7 +4,6 @@
 
 body {
   font-family: 'Noto Sans KR', sans-serif;
-  background-color: #F4F4F4;
 }
 
 .clearfix:after{
@@ -126,7 +125,6 @@ body {
   height: 34px;
 }
 
-
 .header_btm{
   width: 100%;
   height: 57px;
@@ -199,43 +197,39 @@ body {
 
 /** 머리 **/
 
-
 /** 내용 **/
 
 .event{
-  background: url("../images/shop-03.png")no-repeat;
-  width: 218px;
-  height: 54px;
+  background: url("../images/bulboxevent-02.png")no-repeat;
+  width: 249px;
+  height: 53px;
   text-indent: -99999em;
+  margin: 0 auto;
+}
+
+.eventtext{
+  background: url("../images/bulboxevent-01.png")no-repeat;
+  width: 1280px;
+  height: 511px;
+  text-indent: -99999em;
+  margin: 0 auto;
+}
+
+.eventtext-link{
+  display: block;
+  width: 1280px;
+  height: 511px;
 }
 
 .btn{
-  background: url("../images/shop-02.png")no-repeat;
-  width: 657px;
-  height: 110px;
+  background: url("../images/bulboxevent-03.png")no-repeat;
+  width: 151px;
+  height: 32px;
   text-indent: -99999em;
   margin: 0 auto;
-  cursor: pointer;
-}
-
-.lightbox{
-  background: url("../images/shop-01.png")no-repeat;
-  width: 1280px;
-  height: 1195px;
-  text-indent: -99999em;
-  margin: 50px auto;
-}
-
-.lightbox-link{
-  display: block;
-  width: 1280px;
-  height: 1195px;
 }
 
 /** 내용 **/
-
-
-
 
 /** 다리 **/
 
