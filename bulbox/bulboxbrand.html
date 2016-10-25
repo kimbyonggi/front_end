@@ -6,6 +6,8 @@
 
   <link rel="stylesheet" href="css/reset.css"/>
   <link rel="stylesheet" href="css/bulboxbrand.css"/>
+  <script src="js/lib/jquery-3.1.1.js"></script>
+  <script src="js/function.js"></script>
 
 </head>
 <body>
@@ -84,244 +86,259 @@
 
 </header>
 
-<section>
+<div class="brand-wrap">
 
-  <div class="vidio">
+  <section id="el" class="section-wrap">
 
-    <video width="100%" controls="controls" autoplay>
+    <div class="section-inner">
 
-      <source src="vidio/Comp%202.mp4" type="video/mp4" />
+      <div class="vidio section s-1">
 
-    </video>
+        <div class="brand-video-wrap">
+          <video controls="controls" class="brand-video">
 
-  </div>
+            <source src="video/Comp_2.mp4" type="video/mp4" />
 
-  <div class="whybulbox">
+          </video>
+        </div>
 
-    <h3>WHY BULBOX?</h3>
+      </div>
 
-    <div>
+      <div class="whybulbox section s-2">
 
-      <ul class="bulboxcont clearfix">
-
-        <li class="bulbox bulboxbrand-01">
-
-          <ul class="bulbox-item">
-
-            <li>
-
-              <div class="bulbox-item-img1">조명이미지1</div>
-              <p class="textindent">BULBOX</p>
-
-            </li>
-
-            <li>
-
-              <p class="textindent">BULBOX는 BULB(전구)+ BOX로 상자와 종이박스를 결합한 이름에서 나온 이름 입니다.
-                B가 겹치기 때문에 B를 혼합한 형태이며 혼합하여도 불박스라는 어휘로 말이 되게 표현한 것 입니다.
-                또한 기업의 이미지와 흡사하며 말하기가 쉽게 만들었다. </p>
-
-            </li>
-
-          </ul>
-
-        </li>
-
-        <li class="bulbox bulboxbrand-02">
-
-          <ul class="bulbox-item">
-
-            <li>
-
-              <div class="bulbox-item-img2">조명이미지2</div>
-              <p class="textindent">빛 + 공간</p>
-
-            </li>
-
-            <li>
-
-              <p class="textindent">빛을 이용한 공간을 디자인적 요소 표현다양한 조명으로 감각적인 실내디자인을 통해 나만의 공간을꾸려나갈수 있습니다. </p>
-
-            </li>
-
-          </ul>
-
-        </li>
-
-        <li class="bulbox bulboxbrand-03">
-
-          <ul class="bulbox-item">
-
-            <li>
-
-              <div class="bulbox-item-img3">조명이미지3</div>
-              <p class="textindent">저렴한 조명</p>
-
-            </li>
-
-            <li>
-
-              <p class="textindent">디자인된 조명들은 비싸서 집에 두고 쓰기힘들었지만종이와 전구의 조합으로 디자인된 조명을보다 저렴하게 판매하는 기업입니다.</p>
-
-            </li>
-
-          </ul>
-
-        </li>
-
-        <li class="bulbox bulboxbrand-04">
-
-          <ul class="bulbox-item">
-
-            <li>
-
-              <div class="bulbox-item-img4">조명이미지4</div>
-              <p class="textindent">나만의 실내</p>
-
-            </li>
-
-            <li>
-
-              <p class="textindent">조명이 디자인되어 특별하지만 빛을 통한
-                공간의 디자인을 통해 특별한 공간을
-                만들수있게 합니다.</p>
-
-            </li>
-
-          </ul>
-
-        </li>
-
-      </ul>
-
-    </div>
-
-  </div>
-
-  <div>
-
-    <ul>
-
-      <li class="eventlight"><img class="eventlight" src="images/eventlight-01.png" alt="이벤트1"/></li>
-
-      <!--
-
-      <li class="eventlight"><img src="images/eventlight-02.png" alt="이벤트2"/></li>
-
-      <li class="eventlight"><img src="images/eventlight-03.png" alt="이벤트3"/></li>
-
-      <li class="eventlight"><img src="images/eventlight-04.png" alt="이벤트4"/></li>
-
-      -->
-
-    </ul>
-
-  </div>
-
-  <section>
-
-    <div class="bulboxappcont clearfix">
-
-      <div>
+        <h3>WHY BULBOX?</h3>
 
         <div>
 
-          <div class="bulboxapp"><img src="images/Untitled-5-01.png" alt="휴대폰이미지"></div>
+          <ul class="bulboxcont clearfix">
+
+            <li class="bulbox bulboxbrand-01">
+
+              <ul class="bulbox-item">
+
+                <li>
+
+                  <div class="bulbox-item-img1">조명이미지1</div>
+                  <p class="textindent">BULBOX</p>
+
+                </li>
+
+                <li>
+
+                  <p class="textindent">BULBOX는 BULB(전구)+ BOX로 상자와 종이박스를 결합한 이름에서 나온 이름 입니다.
+                    B가 겹치기 때문에 B를 혼합한 형태이며 혼합하여도 불박스라는 어휘로 말이 되게 표현한 것 입니다.
+                    또한 기업의 이미지와 흡사하며 말하기가 쉽게 만들었다. </p>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li class="bulbox bulboxbrand-02">
+
+              <ul class="bulbox-item">
+
+                <li>
+
+                  <div class="bulbox-item-img2">조명이미지2</div>
+                  <p class="textindent">빛 + 공간</p>
+
+                </li>
+
+                <li>
+
+                  <p class="textindent">빛을 이용한 공간을 디자인적 요소 표현다양한 조명으로 감각적인 실내디자인을 통해 나만의 공간을꾸려나갈수 있습니다. </p>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li class="bulbox bulboxbrand-03">
+
+              <ul class="bulbox-item">
+
+                <li>
+
+                  <div class="bulbox-item-img3">조명이미지3</div>
+                  <p class="textindent">저렴한 조명</p>
+
+                </li>
+
+                <li>
+
+                  <p class="textindent">디자인된 조명들은 비싸서 집에 두고 쓰기힘들었지만종이와 전구의 조합으로 디자인된 조명을보다 저렴하게 판매하는 기업입니다.</p>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+            <li class="bulbox bulboxbrand-04">
+
+              <ul class="bulbox-item">
+
+                <li>
+
+                  <div class="bulbox-item-img4">조명이미지4</div>
+                  <p class="textindent">나만의 실내</p>
+
+                </li>
+
+                <li>
+
+                  <p class="textindent">조명이 디자인되어 특별하지만 빛을 통한
+                    공간의 디자인을 통해 특별한 공간을
+                    만들수있게 합니다.</p>
+
+                </li>
+
+              </ul>
+
+            </li>
+
+          </ul>
 
         </div>
 
       </div>
 
-      <div class="bulboxappitem">
-
-        <h2>쇼핑앱 이용안내</h2>
-
-        <p>쉽고 빠르고 안전한 모바일 쇼핑앱 원하는 조명을 한손안에!</p>
+      <div class="section s-3">
 
         <ul>
 
-          <li>
+          <li class="eventlight"><img class="eventlight" src="images/eventlight-01.png" alt="이벤트1"/></li>
 
-            <p class="bulboxapptext1">원하는 조명 구매 : 맘에 드는 조명을 한손에 쉽고 빠르고 BULBOX 모바일 앱으로!</p>
+          <!--
 
-          </li>
+          <li class="eventlight"><img src="images/eventlight-02.png" alt="이벤트2"/></li>
 
-          <li>
+          <li class="eventlight"><img src="images/eventlight-03.png" alt="이벤트3"/></li>
 
-            <p class="bulboxapptext2">결제시스탬 : 간편 결제 시스템으로 원하는 조명을 구입해보세요.</p>
+          <li class="eventlight"><img src="images/eventlight-04.png" alt="이벤트4"/></li>
 
-          </li>
-
-          <li>
-
-            <p class="bulboxapptext3">배달시스템 : 빠르고 안전한 배달로 원하는 조명을 집으로!</p>
-
-          </li>
+          -->
 
         </ul>
 
       </div>
 
+      <section class="section s-4">
+
+        <div class="bulboxappcont clearfix">
+
+          <div>
+
+            <div>
+
+              <div class="bulboxapp"><img src="images/Untitled-5-01.png" alt="휴대폰이미지"></div>
+
+            </div>
+
+          </div>
+
+          <div class="bulboxappitem">
+
+            <h2>쇼핑앱 이용안내</h2>
+
+            <p>쉽고 빠르고 안전한 모바일 쇼핑앱 원하는 조명을 한손안에!</p>
+
+            <ul>
+
+              <li>
+
+                <p class="bulboxapptext1">원하는 조명 구매 : 맘에 드는 조명을 한손에 쉽고 빠르고 BULBOX 모바일 앱으로!</p>
+
+              </li>
+
+              <li>
+
+                <p class="bulboxapptext2">결제시스탬 : 간편 결제 시스템으로 원하는 조명을 구입해보세요.</p>
+
+              </li>
+
+              <li>
+
+                <p class="bulboxapptext3">배달시스템 : 빠르고 안전한 배달로 원하는 조명을 집으로!</p>
+
+              </li>
+
+            </ul>
+
+          </div>
+
+        </div>
+
+      </section>
+
+    </div>
+
+    <div class="section-btn">
+      <div class="prev btn">prev</div>
+      <div class="next btn">next</div>
     </div>
 
   </section>
 
-</section>
+  <footer>
 
-<footer>
+    <div class="cont inner">
 
-  <div class="cont inner">
+      <div class="information clearfix">
 
-    <div class="information clearfix">
+        <h2><a href="#" class="information_logo">logo</a></h2>
 
-      <h2><a href="#" class="information_logo">logo</a></h2>
+        <ul class="information_text clearfix">
 
-      <ul class="information_text clearfix">
+          <li class="information_text_item"><a href="#" class="information_text_link">회사소개</a></li>
 
-        <li class="information_text_item"><a href="#" class="information_text_link">회사소개</a></li>
+          <li class="information_text_item"><a href="#" class="information_text_link">이용약관</a></li>
 
-        <li class="information_text_item"><a href="#" class="information_text_link">이용약관</a></li>
+          <li class="information_text_item"><a href="#" class="information_text_link">개인정보취급방침</a></li>
 
-        <li class="information_text_item"><a href="#" class="information_text_link">개인정보취급방침</a></li>
+          <li class="information_text_item"><a href="#" class="information_text_link">제휴문의</a></li>
 
-        <li class="information_text_item"><a href="#" class="information_text_link">제휴문의</a></li>
+          <li class="information_text_item"><a href="#" class="information_text_link">사업자정보확인</a></li>
 
-        <li class="information_text_item"><a href="#" class="information_text_link">사업자정보확인</a></li>
+        </ul>
 
-      </ul>
+      </div>
 
+      <div class="address">
+
+        <address class="clearfix">
+
+          <div class="address1 clearfix">
+
+            <p class="address_item">(주) BULBOX</p>
+
+            <p class="address_item">충창남도 아산시 배방읍 호서로 460 자이1차아파트 103동 806호</p>
+
+            <p class="address_item">대표 : 김병기</p>
+
+          </div>
+
+          <div class="address2 clearfix">
+
+            <p class="address_item">사업자등록번호 : 000-00-00000</p>
+
+            <p class="address_item">통신판매업신고번호 제 2016 충청아산-0000</p>
+
+            <p class="address_item">개인정보관리책임자 : 김병기</p>
+
+          </div>
+
+        </address>
+
+      </div>
     </div>
 
-    <div class="address">
+  </footer>
 
-      <address class="clearfix">
-
-        <div class="address1 clearfix">
-
-          <p class="address_item">(주) BULBOX</p>
-
-          <p class="address_item">충창남도 아산시 배방읍 호서로 460 자이1차아파트 103동 806호</p>
-
-          <p class="address_item">대표 : 김병기</p>
-
-        </div>
-
-        <div class="address2 clearfix">
-
-          <p class="address_item">사업자등록번호 : 000-00-00000</p>
-
-          <p class="address_item">통신판매업신고번호 제 2016 충청아산-0000</p>
-
-          <p class="address_item">개인정보관리책임자 : 김병기</p>
-
-        </div>
-
-      </address>
-
-    </div>
-  </div>
-
-</footer>
+</div>
 
 </body>
 </html>
