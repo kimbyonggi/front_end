@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script>
+    /**
+     * 숫자에 따른 계절 확인하기
+     */
+    function season(){
+      var number = document.getElementById('number').value;
+      var season = '';
+      switch(number){
+        case '3':
+        case '4':
+        case '5':
+          season = '봄';
+          break;
+        case '6':
+        case '7':
+        case '8':
+          season = '여름';
+          break;
+        case '9':
+        case '10':
+        case '11':
+          season = '가을';
+          break;
+        case '12':
+        case '1':
+        case '2':
+          season = '겨울';
+          break;
+      }
+
+      document.write(season);
+
+    }
+  </script>
+
+  <script>
+    /**
+     * 짝수 홀수 구분하는 코딩
+     */
+    function oddEven(){
+      var point = document.getElementById('point').value;
+      var oddEven;
+      /*
+       if( (parseInt(point) % 2) == 0 ){
+       oddEven = '짝수';
+       } else {
+       oddEven = '홀수';
+       }
+       */
+      switch( parseInt(point) % 2 ){
+        case 0:
+          oddEven = '짝수';
+          break;
+        default:
+          oddEven = '홀수';
+      }
+
+      document.write(oddEven);
+    }
+  </script>
+</head>
+<body id="body">
+
+<h2>1. 월 을 입력하면 계절을 출력하는 기능을 코딩하시오.</h2>
+<p>1) 1~12 사이의 숫자가 아닌 수가 입력되면 '1~12 사이의 숫자만 입력하셔야 합니다.' alert 창을 띄워주기</p>
+<p>2) 봄 : 3,4,5 월 / 여름 : 6,7,8 월 / 가을 9,10,11 월 / 겨울 : 12,1,2 월</p>
+
+<div>
+  <label class="label">번호를 입력하시오.</label>
+  <input type="text" id="number" />
+</div>
+
+<div>
+  <button type="button" onclick="season();">계절확인</button>
+</div>
+
+
+<hr />
+<h1>과제2</h1>
+
+<h2>2. 입력 받은 숫자가 짝수인지 홀수인지 출력하는 기능을 코딩하시오.</h2>
+
+<div>
+  <label class="label">숫자를 입력하시오.</label>
+  <input type="text" id="point" />
+</div>
+
+<div>
+  <button type="button" onclick="oddEven();">결과확인</button>
+</div>
+
+</body>
+</html>

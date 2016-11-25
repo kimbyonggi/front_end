@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script src="../lib/jquery-3.1.1.js"></script>
+
+  <script>
+
+//    $(document).ready(function(){
+//
+//      for(var i=1; i<=60; i++){
+//
+//        $('.image').attr('src', 'sprite/' + i + '.jpg')
+//
+//      }
+
+      /**
+       * setInterval() : 정해진 시간마다 반복시키는 함수
+       *
+       * EX)
+       *
+       * setInterval(function(){}) , 시간
+       *
+       * ※ 시간단위 (milisecoynd)
+       *
+       * 1000 = 1
+       *
+       * setInterval(func , 1000)
+       *
+       */
+
+      $(document).ready(function(){
+
+        var  i = 1;
+
+        setInterval(function(){
+
+          if ( i >= 61 ){
+
+            i = 1;
+
+          }
+
+          $('.image').attr('src' , 'sprite/' + i + '.jpg');
+
+          i++;
+
+         }, 33);
+
+      });
+
+  </script>
+
+</head>
+<body>
+
+<div class="wrap">
+
+  <h1>이미지 애니메이션 - 자동 애니메이션</h1>
+
+  <div class="image_wrap">
+
+    <img src="sprite/1.jpg" alt="" class="image"/>
+
+  </div>
+
+</div>
+
+</body>
+</html>

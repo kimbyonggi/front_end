@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+
+    .wrap{
+      width: 200px;
+      height: 200px;
+
+      position: fixed;
+      top: 200px;
+      right: 30px;
+
+      overflow: scroll;
+    }
+
+    .box{
+      width: 100px;
+      height: 10000px;
+
+      padding: 50px;
+
+      border: 10px solid blue;
+
+      margin: 100px;
+
+      background: #09619e;
+
+      transition: all 1s ease-out;
+    }
+
+
+  </style>
+
+  <script src="../lib/jquery-3.1.1.js"></script>
+
+  <script>
+
+    $(function(){
+
+      console.log(screen.width);
+
+      console.log(screen.height);
+
+      console.log(screen.availWidth);
+
+      console.log(screen.availHeight);
+
+    });
+
+  </script>
+
+</head>
+<body>
+
+<div class="box"></div>
+
+<div class="wrap">
+  <div class="box"></div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+
+    .wall{
+      width: 1000px;
+      height: 500px;
+
+      border: 30px solid transparent;
+      border-top: 0;
+
+      border-image:url(block.png) 150 round;
+    }
+
+    .wrap{
+      width: 100px;
+      height: 500px;
+
+      position: absolute;
+      top:0;
+      left: 0;
+
+      transition: left 10s linear;
+    }
+
+    .wrap.end{
+      left: 1000px;
+    }
+
+    .Basketball{
+      width: 100px;
+      height: 100px;
+
+      position: absolute;
+      top: 0;
+      left: 0;
+
+     /* transition:top 2s ease-in;*/
+    }
+
+    .Basketball.drop{
+      top: 500px;
+    }
+
+  </style>
+
+  <script src="../js/lib/jquery-3.1.1.js"></script>
+
+  <script>
+
+    function bound(){
+      $('.Basketball').addClass('drop').css({transition: 'top 0.5s cubic-bezier(.33,.01,.9,.47)'});
+
+      setTimeout(function () {
+
+        $('.Basketball').removeClass('drop').css({transition: 'top 0.5s cubic-bezier(.1,.44,.6,.97)'});
+
+      }, 500);
+
+    }
+
+    $(function(){
+
+      $('.Basketball').on('click', function(){
+
+        $('.wrap').addClass('end');
+        bound();
+
+        setInterval(function(){
+
+          bound();
+
+        }, 1000);
+
+      });
+
+    });
+
+  </script>
+</head>
+<body>
+
+<div class="wall">
+
+  <div class="wrap">
+
+    <img src="Basketball.png" alt="농구공" class="Basketball"/>
+
+  </div>
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+
+        function gugudan(){
+            var dan = document.getElementById('dan').value;
+            var result;
+
+            for( var i=1; i<=9; i++ ){
+                result = parseInt(dan) * i;
+
+
+                //출력
+                var node = document.createTextNode(dan + ' × ' + i + ' = ' + result);
+
+                var div = document.createElement('div');
+
+                div.setAttribute('id', 'result');
+
+                div.appendChild(node); //=> <div>25</div>
+
+                var element = document.getElementById("result-wrap");
+
+                element.appendChild(div);
+
+                /*
+                    <div id="result">
+                        <div>25</div>
+                    </div>
+                 */
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<div>
+    <label class="label">단을 입력하시오.</label>
+    <input type="text" id="dan" />
+</div>
+
+<div>
+    <button type="button" onclick="gugudan();">결과확인</button>
+</div>
+
+<div id="result-wrap"></div>
+
+</body>
+</html>

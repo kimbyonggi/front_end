@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <!-- 로컬에서 사용하는 방법 -->
+    <script src="../lib/jquery-3.1.1.js"></script>
+
+    <!-- CDN -->
+    <!--
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    -->
+    <style>
+        .wrap{
+            width:300px;
+            height:200px;
+        }
+    </style>
+
+    <script>
+        // 방법1
+        jQuery(document).ready(function(){
+            // 실행 코드
+        });
+
+        // 방법 2
+        jQuery(function(){
+            // 실행 코드
+        });
+
+        // 방법 3
+        $(document).ready(function(){
+            // 실행 코드
+        });
+
+        // 방법 4
+        $(function(){
+            // 실행 코드
+        });
+
+        /*
+
+            ready() - 함수
+            jQuery() - 함수
+            $() - 함수
+
+        */
+
+        // 문서 내용 출력
+        $(document).ready(function(){
+            // div 영역의 가로,세로 길이 출력
+            console.log( $('.wrap').width() );
+            console.log( $('.wrap').height() );
+        });
+
+        // 이미지의 가로,세로 길이 출력
+        // 이미지 로딩 속도가 느려서 출력이 안될때 onload 이벤트를 사용함
+        window.onload= function(){
+            console.log( $('.image').width() );
+            console.log( $('.image').height() );
+        };
+
+    </script>
+
+</head>
+<body>
+
+<div class="wrap">Hello...</div>
+
+<img src="../images/full-frame-dslr.jpg" class="image" />
+
+</body>
+</html>

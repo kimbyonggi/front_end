@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script>
+    /**
+    * if 로 구현
+    */
+
+    function conditionIf(){
+
+      var number = document.getElementById('number1').value;
+      var result;
+
+      if( ( parseInt(number) + 1 ) == 1 ){
+
+        result = 10;
+
+      } else if( ( parseInt(number) + 1 ) == 2 ) {
+
+        result = 20;
+
+      } else {
+
+        result = 30;
+
+      }
+
+      document.write('<p>');
+      document.write(result);
+      document.write('</p>');
+
+    }
+  </script>
+
+  <script>
+    /**
+     * switch case 로 구현
+     */
+
+    function conditionSwitch(){
+
+      var number = document.getElementById('number2').value;
+      var result;
+
+      switch( parseInt(number) + 1 ){
+
+        case 1:
+          result = 10;
+          break;
+
+        case 2:
+          result = 20;
+          break;
+
+        default :
+          result = 30;
+
+      }
+
+      document.write('<p>');
+      document.write(result);
+      document.write('</p>');
+
+    }
+  </script>
+
+</head>
+<body id="body">
+
+<h2>번호를 입력해서 결과 확인 - if 구문으로 구현한 예제</h2>
+
+<div>
+    <label class="label">번호를 입력하시오. (1,2,3)</label>
+    <input type="text" id="number1" />
+</div>
+
+<div>
+    <button type="button" onclick="conditionIf();">결과확인</button>
+</div>
+
+
+<h2>번호를 입력해서 결과 확인 - switch~case 구문으로 각각 구현한 예제</h2>
+
+<div>
+  <label class="label">번호를 입력하시오. (1,2,3)</label>
+  <input type="text" id="number2" />
+</div>
+
+<div>
+  <button type="button" onclick="conditionSwitch();">결과확인</button>
+</div>
+
+</body>
+</html>

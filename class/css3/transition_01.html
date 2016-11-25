@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+
+    .sub-wrap{
+      position: relative;
+      width: 50%;
+      height: 500px;
+      border: 3px solid #00878d;
+      float: left;
+      box-sizing: border-box;
+      padding: 50px;
+    }
+
+    .box{
+      color: white;
+      width: 100px;
+      height: 100px;
+      background: #01aeb2;
+    }
+
+
+
+    .btn_wrap{
+      width: 100%;
+      position: absolute;
+      bottom: 50px;
+      text-align: center;
+    }
+
+    .btn{
+      border: 0;
+      background: #237491;
+      color: white;
+      width: 100px;
+      height: 30px;
+    }
+
+  </style>
+
+  <script src="../js/lib/jquery-3.1.1.js"></script>
+
+  <script>
+
+    $(document).ready(function(){
+
+      var i = 0;
+      var timeID;
+
+      $('.js-zoomin').on('click', function(){
+
+        timeID = setInterval(function(){
+
+          if( i >= 200 ){
+            clearInterval(timeID)
+          }
+
+          $('.style-js').css({
+
+            width : 100 + i,
+            height : 100 + i
+
+          });
+
+          i++;
+
+        }, 10);
+
+      });
+
+      $('.js-zoomout').on('click', function(){
+
+        timeID = setInterval(function(){
+
+          if( i <= 0 ){
+            clearInterval(timeID)
+          }
+
+          $('.style-js').css({
+
+            width : 100 + i,
+            height : 100 + i
+
+          });
+
+          i--;
+
+        }, 10);
+
+      });
+
+    });
+
+    $('.css3-zoomin').on('click', function(){
+
+
+
+    });
+
+  </script>
+
+</head>
+<body>
+
+<div class="wrap">
+
+  <div class="sub-wrap">
+
+    <div class="box style-js">BOX</div>
+
+      <div class="btn_wrap">
+
+        <button type="button" class="btn js-zoomin">zoom in</button>
+
+        <button type="button" class="btn js-zoomout">zoom out</button>
+
+      </div>
+
+  </div>
+
+  <div class="sub-wrap">
+
+    <div class="box style-css3">BOX</div>
+
+      <div class="btn_wrap">
+
+        <button type="button" class="btn css3-zoomin">zoom in</button>
+
+        <button type="button" class="btn css3-zoomout">zoom out</button>
+
+      </div>
+
+  </div>
+
+</div>
+
+
+</body>
+</html>

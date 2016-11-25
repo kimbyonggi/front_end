@@ -1,3 +1,155 @@
 .displaynone{
   display: none;
 }
+
+header{
+  position: fixed;
+  width: 130px;
+  height: 100%;
+}
+
+.logo{
+  height: 19px;
+}
+
+.logo_link{
+  background: url("../images/top_logo.png")no-repeat;
+  text-indent: -99999em;
+  width: 86px;
+  height: 19px;
+  display: block;
+  margin: 61px auto 0;
+}
+
+.gnb{
+  position: absolute;
+  top: 50%;
+  left: 0;
+  display: block;
+  height: 196px;
+  margin-top: -98px;
+}
+
+.gnb_item{
+  display: block;
+  width: 130px;
+  height: 39px;
+}
+
+.gnb_link{
+  display: block;
+  width: 130px;
+  height: 39px;
+  text-indent: -99999em;
+}
+
+.link1{
+  background: url("../images/top_gnb.png")no-repeat 0 0;
+  width: 130px;
+  height: 39px;
+}
+
+.link1:hover{
+  background: url("../images/top_gnb.png")no-repeat -130px 0;
+  width: 130px;
+  height: 39px;
+}
+
+.link2{
+  background: url("../images/top_gnb.png")no-repeat 0 -39px;
+  width: 130px;
+  height: 39px;
+}
+
+.link2:hover{
+  background: url("../images/top_gnb.png")no-repeat -130px -39px;
+  width: 130px;
+  height: 39px;
+}
+
+.link3{
+  background: url("../images/top_gnb.png")no-repeat 0 -78px;
+  width: 130px;
+  height: 39px;
+}
+
+.link3:hover{
+  background: url("../images/top_gnb.png")no-repeat -130px -78px;
+  width: 130px;
+  height: 39px;
+}
+
+.link4{
+  background: url("../images/top_gnb.png")no-repeat 0 -117px;
+  width: 130px;
+  height: 39px;
+}
+
+.link4:hover{
+  background: url("../images/top_gnb.png")no-repeat -130px -117px;
+  width: 130px;
+  height: 39px;
+}
+
+.link5{
+  background: url("../images/top_gnb.png")no-repeat -260px -117px;
+  width: 130px;
+  height: 39px;
+}
+
+.link5:hover{
+  background: url("../images/top_gnb.png")no-repeat -390px -117px;
+  width: 130px;
+  height: 39px;
+}
+
+.link6{
+  background: url("../images/top_gnb.png")no-repeat 0 -156px;
+  width: 130px;
+  height: 39px;
+}
+
+.link6:hover{
+  background: url("../images/top_gnb.png")no-repeat -130px -156px;
+  width: 130px;
+  height: 39px;
+}
+
+.gnb_btn{
+  position: absolute;
+  left: 50px;
+  bottom: 42px;
+  display: block;
+}
+
+.gnb_btn_item{
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: 0 auto;
+}
+
+.gnb_btn_btn{
+  text-indent: -99999em;
+  display: block;
+  border: 0;
+  background: url("../images/btn.png")no-repeat -10px -260px;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.gnb_btn_btn:hover{
+  background:  url("../images/btn.png")no-repeat -50px -260px;;
+}
+.gnb_btn2{
+  display: none;
+}
+
+section{
+  display: none;
+}
+
+footer{
+  display: none;
+}
