@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        .parent1{
+            width:200px;
+            height:200px;
+
+            background:yellow;
+
+            position:relative;
+        }
+
+        .parent2{
+            /*position:relative;*/
+        }
+
+        .box1{
+            width:100px;
+            height:100px;
+
+            background:red;
+
+            position:absolute;
+            top:50px;
+            left:50px;
+        }
+
+        .parent3{
+            width:200px;
+            height:200px;
+
+            background:skyblue;
+
+            position:absolute;
+            top:250px;
+            left:100px;
+        }
+
+        .box2{
+            width:100px;
+            height:100px;
+
+            background:pink;
+
+            position:absolute;
+            top:10px;
+            left:10px;
+        }
+
+        .parent4{
+            width:200px;
+            height:200px;
+
+            background:pink;
+
+            position:absolute;
+            top:500px;
+            left:100px;
+        }
+
+        .box3{
+            width:100px;
+            height:100px;
+
+            background:white;
+
+            position:absolute;
+            top:30px;
+            left:20px;
+        }
+
+    </style>
+
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+
+        $(function(){
+
+            console.log( '기준 부모노드 : ' + $('.box1').offsetParent().attr('class') );
+
+            console.log( '지역 좌표 left : ' + $('.box2').position().left );
+            console.log( '지역 좌표 top  : ' + $('.box2').position().top );
+
+            console.log( '지역 좌표 left : ' + $('.box3').position().left );
+            console.log( '지역 좌표 top  : ' + $('.box3').position().top );
+            console.log( '전역 좌표 left : ' + $('.box3').offset().left );
+            console.log( '전역 좌표 top  : ' + $('.box3').offset().top );
+
+        });
+
+    </script>
+</head>
+<body>
+
+    <div class="parent1">
+        <div class="parent2">
+            <div class="box1"></div>
+        </div>
+    </div>
+
+    <div class="parent3">
+        <div class="box2"></div>
+    </div>
+
+    <div class="parent4">
+        <div class="box3"></div>
+    </div>
+
+</body>
+</html>

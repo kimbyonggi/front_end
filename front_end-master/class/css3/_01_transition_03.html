@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+
+        .wall{
+            width:1000px;
+            height:590px;
+
+            border:30px solid transparent;
+            border-top:0;
+
+            border-image:url(block.jpg) 80 round;
+        }
+
+        .wrap{
+            width:100px;
+            height:500px;
+
+            position:absolute;
+            top:0;
+            left:37px;
+
+            transition:left 5s linear;
+        }
+
+        .wrap.end{
+            left:939px;
+        }
+
+        .basketball{
+            width:100px;
+            height:100px;
+
+            position:absolute;
+            top:0;
+            left:0;
+        }
+
+        .basketball.drop{
+            top:500px;
+        }
+    </style>
+    <script src="../js/lib/jquery-3.1.1.js"></script>
+    <script>
+
+        function bound(){
+
+            $('.basketball').addClass('drop').css({transition : 'top 0.5s cubic-bezier(.33,.01,.9,.47)'});
+
+            setTimeout(function(){
+
+                $('.basketball').removeClass('drop').css({transition : 'top 0.5s cubic-bezier(.1,.44,.6,.97)'});
+
+            }, 500);
+
+        }
+
+        function round(){
+
+            $('.wrap').addClass('end');
+
+            setTimeout( function(){
+
+                $('.wrap').removeClass('end');
+
+            }, 5000 );
+
+        }
+
+        $(function(){
+
+            $('.basketball').on('click', function(){
+
+                round();
+                bound();
+
+                setInterval(function(){
+                    bound();
+                }, 1000);
+
+                setInterval(function(){
+                    round();
+                }, 10000);
+
+
+            });
+
+
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="wall">
+
+    <div class="wrap">
+
+        <img src="basketball.png" class="basketball" />
+
+    </div>
+
+</div>
+
+</body>
+</html>

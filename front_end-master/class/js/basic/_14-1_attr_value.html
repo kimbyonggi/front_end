@@ -1,0 +1,52 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD Xhtml 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title></title>
+    <style>
+        body {
+            font-size: 9pt;
+            font-family: "굴림";
+        }
+        div, p, ul, li {
+            border: 1px #eeeeee solid;
+            margin: 10px;
+        }
+        ul {
+            padding: 10px;
+        }
+        li.select {
+            background-color: #ccc;
+        }
+    </style>
+
+    <script type="text/javascript"  src="../lib/jquery-3.1.1.js"></script>
+    <script>
+
+        $(document).ready(function(){
+
+            $('.btn1').on('click', function(){
+                $('.image').attr('src', '../images/dslr_body_and_lens_cameras2.jpg');
+                console.log( $('.image').attr('src') );
+            });
+
+            $('.btn2').on('click', function(){
+                $('.image').attr('src', '../images/full-frame-dslr.jpg');
+                console.log( $('.image').attr('src') );
+            });
+
+        });
+
+    </script>
+</head>
+
+<body>
+
+<img src="" class="image" />
+
+<button type="button" class="btn1">이미지1</button>
+<button type="button" class="btn2">이미지2</button>
+
+</body>
+
+</html>

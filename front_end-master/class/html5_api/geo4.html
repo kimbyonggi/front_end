@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script src="jquery-3.1.1.js"></script>
+
+  <script type="text/javascript" src="//apis.daum.net/maps/maps3.js?apikey=39cf85a41bc159c1a59086ef91999754"></script>
+
+  <script>
+
+    window.onload = function(){
+
+      var lat, lng;
+
+      if( navigator.geolocation ){
+
+
+        navigator.geolocation.watchPosition(function(position) {
+
+         lat= position.coords.latitude;
+
+         lng= position.coords.longitude;
+
+          var container = document.getElementById('map');
+          var options = {
+            center: new daum.maps.LatLng(lat, lng),
+            level: 3
+          };
+
+          var map = new daum.maps.Map(container, options);
+
+          var markerPosition  = new daum.maps.LatLng((lat, lng));
+
+          var marker = new daum.maps.Marker({
+            position: markerPosition
+          });
+
+          marker.setMap(map);
+
+        });
+
+      } else {
+
+        alert('이 브라우저는 지오로케이션을 지원하지 않습니다.');
+
+      }
+
+
+
+    }
+
+
+
+  </script>
+
+</head>
+<body>
+
+<div id="map" style="width:500px;height:400px;"></div>
+
+</body>
+</html>

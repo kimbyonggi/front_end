@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-3.1.1.js"></script>
+
+    <script>
+
+        window.onload = function(){
+            if( navigator.geolocation ){
+
+                navigator.geolocation.watchPosition(function(position) {
+
+                    var printPosition =  '위도 :' + position.coords.latitude;
+                    printPosition +=  '경도 :' + position.coords.longitude;
+
+                    $('.geo').text(printPosition);
+                });
+
+            } else {
+
+                alert('이 브라우저는 지오로케이션을 지원하지 않습니다.');
+
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<div class="geo">이 곳에 위도, 경도가 표시됩니다.</div>
+
+</body>
+</html>

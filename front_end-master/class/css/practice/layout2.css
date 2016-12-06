@@ -1,0 +1,39 @@
+.wrap{
+  width:980px;
+  margin:0 auto;
+}
+
+.header{
+  height:100px;
+  background:brown;
+}
+
+.container{
+  margin:20px 0;
+}
+
+.container:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+.lnb{
+  width:160px;
+  height:300px;
+  background:palevioletred;
+  float:left;
+}
+
+.contents{
+  width:390px;
+  height:500px;
+  background:greenyellow;
+  margin-left:20px;
+  float:left;
+}
+
+.footer{
+  height:100px;
+  background:brown;
+}

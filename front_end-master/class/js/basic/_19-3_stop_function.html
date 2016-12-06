@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .wrap{
+            padding:30px;
+            border-bottom:3px solid #333;
+        }
+
+        .box-wrap:after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+
+        .box{
+            width:100px;
+            height:100px;
+
+            border:1px solid #01aeb2;
+            background:#f4d900;
+
+            float:left;
+            margin-right:20px;
+        }
+
+        .box.show, .box.show-ani, .fadein, .down{
+            display:none;
+        }
+
+    </style>
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+
+            function boxUp( $box ){
+
+                var boxHeight = $box.height();
+
+                $box
+                        .css({
+                            overflow:'hidden'
+                        })
+                        .animate({
+
+                            height : 0
+
+                        }, 5000, function(){
+
+                            $(this).css({
+                                display:'none'
+                            });
+
+                        });
+
+            }
+
+            function boxStop( $box ){
+                $box.stop();
+            }
+
+            $('.btn-slide').on('click', function(){
+
+                boxUp( $('.box.up') );
+
+            });
+
+            $('.btn-stop').on('click', function(){
+
+                boxStop( $('.box.up') );
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="wrap">
+
+    <div class="box-wrap">
+        <div class="box up">slide up</div>
+        <div class="box down">slide down</div>
+    </div>
+
+    <button type="button" class="btn-slide">start</button>
+    <button type="button" class="btn-stop">stop</button>
+
+</div>
+
+</body>
+</html>

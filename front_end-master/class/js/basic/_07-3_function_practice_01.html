@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+
+        // 함수 선언
+        function print(a){
+            document.write('<div>');
+            document.write(a);
+            document.write('</div>');
+        }
+
+        function dangchum(){
+            var number = document.getElementById('number').value;
+
+            if( number == '1' ){
+                print('냉장고 당첨'); // 함수 호출
+            } else if( number == '2' ){
+                print('세탁기 당첨');
+            } else if( number == '3' ){
+                print('TV 당첨');
+            } else {
+                print('꽝');
+            }
+        }
+
+        /*
+        if( number == '1' ){
+            document.write('<div>');
+            document.write('냉장고 당첨');
+            document.write('</div>');
+        } else if( number == '2' ){
+            document.write('<div>');
+            document.write('세탁기 당첨');
+            document.write('</div>');
+        } else if( number == '3' ){
+            document.write('<div>');
+            document.write('TV 당첨');
+            document.write('</div>');
+        } else {
+            document.write('<div>');
+            document.write('꽝');
+            document.write('</div>');
+        }
+        */
+
+
+    </script>
+
+</head>
+<body>
+
+<h1>
+    수를 입력 받아서
+    1이면 '냉장고 당첨',
+    2이면 '세탁기 당첨',
+    3이면 'TV 당첨',
+    그 외에는 '꽝'
+    (함수 버전)
+</h1>
+
+<div>
+    <input type="text" id="number">
+    <button type="button" onclick="dangchum();">결과확인</button>
+</div>
+
+</body>
+</html>

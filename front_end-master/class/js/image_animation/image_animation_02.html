@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        .wrap{
+            width:840px;
+            height:550px;
+            border:3px solid #237491;
+            margin:0 auto;
+        }
+        h1{
+            text-align:center;
+        }
+
+        .btn-wrap{
+            text-align:center;
+        }
+
+        .btn{
+            border:0;
+            background:#ff7c98;
+            color:#fff;
+        }
+    </style>
+
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+
+        $(document).ready(function(){
+
+            var timeId;
+
+            var i=1;
+
+            $('.play').on('click', function(){
+
+                timeId = setInterval(function(){
+
+                    if( i >= 61 ){
+                        i = 1;
+                    }
+
+                    $('.image').attr('src', 'sprite/' + i + '.jpg');
+
+                    i++;
+
+                }, 33);
+
+            });
+
+            $('.stop').on('click', function(){
+
+                /**
+                 * clearInterval()
+                 *
+                 * setInterval() 동작을 멈추게 함
+                 *
+                 */
+
+                clearInterval(timeId);
+
+            });
+
+            $('.prev').on('click', function(){
+
+                if( i <= 0 ){
+                    i = 60;
+                }
+
+                $('.image').attr('src', 'sprite/' + i + '.jpg');
+
+                i--;
+
+            });
+
+            $('.next').on('click', function(){
+
+                if( i >= 61 ){
+                    i = 1;
+                }
+
+                $('.image').attr('src', 'sprite/' + i + '.jpg');
+
+                i++;
+
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+
+<div class="wrap">
+
+    <h1>이미지 애니메이션 - 애니메이션 컨트롤</h1>
+
+    <div class="image-wrap">
+        <img src="sprite/1.jpg" alt="" class="image" />
+    </div>
+
+    <div class="btn-wrap">
+        <button type="button" class="btn play">Play</button>
+        <button type="button" class="btn stop">Stop</button>
+        <button type="button" class="btn prev">Prev</button>
+        <button type="button" class="btn next">Next</button>
+    </div>
+
+</div>
+
+</body>
+</html>

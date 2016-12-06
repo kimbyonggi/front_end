@@ -1,0 +1,209 @@
+html,body{
+    height: 100%;
+}
+
+.wrap{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.wrap-inner{
+    width: 100%;
+    height: 1080px;
+    background: url(../images/backgrond.png) no-repeat;
+    box-sizing: border-box;
+}
+
+.header-inner{
+    position: absolute;
+    top: 136px;
+    left: 89px;
+
+    transition: all 0.7s cubic-bezier(.43,.08,.58,1.41);
+}
+
+.logo-link{
+    display: block;
+    text-indent: -99999em;
+    width: 367px;
+    height: 235px;
+    background: url(../images/logo.png) no-repeat;
+    margin-bottom: 33px;
+}
+
+.photo-gallery-link{
+    display: block;
+    text-indent: -99999em;
+    width: 327px;
+    height: 26px;
+    background: url(../images/Photo-Gallery.png) no-repeat;
+    margin-bottom: 24px;
+}
+
+
+.about-us-link{
+    display: block;
+    text-indent: -99999em;
+    width: 121px;
+    height: 26px;
+    background: url(../images/about-us.png) no-repeat;
+}
+
+
+
+
+
+
+
+.hamburger{
+    position: absolute;
+    top: 70px;
+    left: 90px;
+}
+
+.hamburger-btn{
+    display: block;
+    text-indent: -99999em;
+    width: 31px;
+    height: 23px;
+    background: url(../images/hamburger.png) no-repeat;
+}
+
+
+.gnb{
+    width: 280px;
+    height: 1080px;
+    background: #000;
+    opacity: 0.5;
+    overflow: auto; /* .gnb-list:first-child>.gnb-link{ margin-top } 잡아주기용 */
+}
+
+
+
+.gnb-link{
+    display: block;
+    text-indent: -99999em;
+    background: url(../images/menu.png) no-repeat;
+    margin: 0 0 60px 70px;
+}
+
+.gnb-list:first-child>.gnb-link{
+    width: 87px;
+    height: 17px;
+    background-position: 0 0;
+    margin-top: 250px;
+}
+
+.gnb-list:nth-child(2)>.gnb-link{
+    width: 147px;
+    height: 22px;
+    background-position: 0 -79px;
+}
+
+.gnb-list:nth-child(3)>.gnb-link{
+    width: 111px;
+    height: 17px;
+    background-position: 0 -158px;
+}
+
+.gnb-list:nth-child(4)>.gnb-link{
+    width: 131px;
+    height: 21px;
+    background-position: 0 -238px;
+}
+
+.gnb-list:nth-child(5)>.gnb-link{
+    width: 119px;
+    height: 17px;
+    background-position: 0 -316px;
+}
+
+.gnb-list:last-child>.gnb-link{
+    width: 44px;
+    height: 18px;
+    background-position: 0 -396px;
+}
+
+
+
+
+
+.help{
+    position: absolute;
+    left: 84px;
+    bottom: 75px;
+
+    transition: all 0.5s cubic-bezier(.43,.08,.58,1.41);
+}
+
+.help-link{
+    display: block;
+    text-indent: -99999em;
+    width: 182px;
+    height: 29px;
+    background: url(../images/help.png) no-repeat;
+}
+
+
+.social-icon{
+    position: absolute;
+    right: 64px;
+    bottom: 55px;
+}
+
+.social-icon-list{
+    float: left;
+    margin-left: 30px;
+}
+
+.social-icon-link{
+    display: block;
+    text-indent: -99999em;
+    height: 29px;
+    background: url(../images/social_icon.png) no-repeat;
+}
+
+.fb{
+    width: 16px;
+    background-position: 0 0;
+}
+
+.tw{
+    width: 28px;
+    background-position: -47px 0;
+}
+
+.pt{
+    width: 22px;
+    background-position: -106px 0;
+}
+
+.em{
+    width: 28px;
+    background-position: -158px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.blind{
+    display: none;
+}
+
+
+

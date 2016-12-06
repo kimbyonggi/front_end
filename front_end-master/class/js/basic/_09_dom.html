@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="../lib/jquery-3.1.1.js"></script>
+</head>
+<body>
+
+<div id="box1">box1</div>
+<div id="box2">box2</div>
+<div id="box3">box3</div>
+
+<div class="wrap">
+    <p class="text1">Hello...</p>
+    <p></p>
+    <div>
+        <p class="text2">How are you...</p>
+    </div>
+</div>
+
+<script>
+    /*
+    var node1 = document.getElementById('box1');
+    var node2 = document.getElementById('box2');
+    var node3 = document.getElementById('box3');
+
+    node1.style.color = '#f00';
+    node2.style.color = '#ff0';
+    node3.style.color = '#f0f';
+
+    node1.style.width = '300px';
+    node2.style.width = '300px';
+    node3.style.width = '300px';
+
+    node1.style.border = '1px solid #000';
+    node2.style.border = '1px solid #000';
+    node3.style.border = '1px solid #000';
+    */
+</script>
+
+<script>
+    $(function(){
+
+        $('#box1').css({
+            color : '#f00',
+            width : 300,
+            border : '1px solid #000'
+        });
+        $('#box2').css({
+            color : '#ff0',
+            width : 300,
+            border : '1px solid #000'
+        });
+        $('#box3').css({
+            color : '#f0f',
+            width : 300,
+            border : '1px solid #000'
+        });
+
+        $('.wrap').css({
+            width : 500,
+            height : 500,
+            border : '5px solid #f00'
+        });
+
+        $('div, p').css({
+            'font-size' : 30,
+            color : 'yellow'
+        });
+
+        $('.wrap .text1').css({
+            color : 'red'
+        });
+
+        $('body > div').css({
+            color : 'green'
+        });
+
+        console.log( $('.text1') );
+
+    });
+</script>
+
+</body>
+
+</html>

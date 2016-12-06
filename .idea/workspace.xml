@@ -5,29 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1e3f9d68-ca92-4cf5-b9dd-c3678e9515ce" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/css3/Transforms_01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/css3/Transforms_03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/css3/_01_transition_03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/css3/_04_anomation.hrml.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_15-1_prevent_default.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_15-2_user_event.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_16-1_offset.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_16-2_size.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_16-3_scroll.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/basic/_16-4_screen_window.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/html5_api/geo.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/image_animation/image_animation_01.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/image_animation/image_animation_02.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/image_animation/image_animation_03.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/js/image_animation/image_animation_04.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snappy/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snappy/css/snappy.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/snappy/snappy.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/class/css3/transition_01.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/js/basic/_01_variable.html" afterPath="$PROJECT_DIR$/class/js/basic/_01_variable.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/js/basic/_02_operator.html" afterPath="$PROJECT_DIR$/class/js/basic/_02_operator.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/ssgpay/css/ssgpay.css" afterPath="$PROJECT_DIR$/class/webpage/ssgpay/css/ssgpay.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/ssgpay/ssgpay.html" afterPath="$PROJECT_DIR$/class/webpage/ssgpay/ssgpay.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_01_percent_box.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_02_css_calc_function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_04_media_type.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_05_media_resolution.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_05_media_resolution2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_05_media_resolution3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_08_viewport.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/responsive/_08_viewport_2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end-master/class/js/basic/_19-3_stop_function.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end-master/class/js/basic/_19-4_animate_bug.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end-master/class/html5_api/geo1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end-master/class/html5_api/geo3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end-master/class/html5_api/geo4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end-master/class/html5_api/jquery-3.1.1.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/front_end-master/class/html5_api/jquery-3.1.1.min.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/webpage/baskin/js/jquery-3.1.0.js" afterPath="$PROJECT_DIR$/class/webpage/baskin/js/jquery-3.1.0.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.js" afterPath="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="front_end.iws" />
@@ -49,11 +43,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ssgpay.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/class/webpage/ssgpay/ssgpay.html">
+      <file leaf-file-name="annual_ring.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/a/html/annual_ring.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.2827051">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-16.958334">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_08_viewport.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/responsive/_08_viewport.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_08_viewport_2.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/responsive/_08_viewport_2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.24944568">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -76,19 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/class/font_test/font_test.html" />
-        <option value="$PROJECT_DIR$/class/js/basic/_01variable.html" />
-        <option value="$PROJECT_DIR$/class/js/basic/_01_variable.html" />
-        <option value="$PROJECT_DIR$/class/js/basic/_02_operator.html" />
-        <option value="$PROJECT_DIR$/class/js/ex/ex1.html" />
-        <option value="$PROJECT_DIR$/class/js/lib/jquery-3.1.1.js" />
-        <option value="$PROJECT_DIR$/class/js/basic/begining.html" />
-        <option value="$PROJECT_DIR$/bulbox/css/bulboxbrand.html" />
-        <option value="$PROJECT_DIR$/bulbox/css/bulboxnotice.css" />
-        <option value="$PROJECT_DIR$/bulbox/css/bulboxcommunity.css" />
-        <option value="$PROJECT_DIR$/bulbox/css/bulboxevent.css" />
-        <option value="$PROJECT_DIR$/bulbox/css/bulbox.css" />
-        <option value="$PROJECT_DIR$/bulbox/css/bulboxshop.css" />
         <option value="$PROJECT_DIR$/bulbox/css/bulboxbrand.css" />
         <option value="$PROJECT_DIR$/bulbox/css/bulboxlogin.css" />
         <option value="$PROJECT_DIR$/bulbox/css/bulboxpro.css" />
@@ -127,6 +128,19 @@
         <option value="$PROJECT_DIR$/class/js/basic/_16-2_size.html" />
         <option value="$PROJECT_DIR$/class/js/basic/_16-3_scroll.html" />
         <option value="$PROJECT_DIR$/class/js/basic/_16-4_screen_window.html" />
+        <option value="$PROJECT_DIR$/front_end-master/class/js/basic/_19-3_stop_function.html" />
+        <option value="$PROJECT_DIR$/front_end-master/class/js/basic/_19-4_animate_bug.html" />
+        <option value="$PROJECT_DIR$/front_end-master/class/html5_api/geo1.html" />
+        <option value="$PROJECT_DIR$/front_end-master/class/html5_api/geo3.html" />
+        <option value="$PROJECT_DIR$/front_end-master/class/html5_api/geo4.html" />
+        <option value="$PROJECT_DIR$/percent/_01_percent_box.html" />
+        <option value="$PROJECT_DIR$/percent/_02_css_calc_function.html" />
+        <option value="$PROJECT_DIR$/percent/_04_media_type.html" />
+        <option value="$PROJECT_DIR$/percent/_05_media_resolution.html" />
+        <option value="$PROJECT_DIR$/percent/_05_media_resolution2.html" />
+        <option value="$PROJECT_DIR$/percent/_05_media_resolution3.html" />
+        <option value="$PROJECT_DIR$/percent/_08_viewport.html" />
+        <option value="$PROJECT_DIR$/percent/_08_viewport_2.html" />
       </list>
     </option>
   </component>
@@ -138,7 +152,7 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="15" />
+    <option name="x" value="8" />
     <option name="width" value="1913" />
     <option name="height" value="1084" />
   </component>
@@ -181,8 +195,6 @@
       <sortByType ProjectPane="false" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -193,6 +205,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -209,11 +223,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\front_end\percent" />
+      <recent name="D:\front_end\front_end-master\class\html5_api" />
+      <recent name="D:\front_end\front_end-master\class\js\basic" />
       <recent name="D:\front_end\class\js\basic" />
       <recent name="D:\front_end\class\css3" />
-      <recent name="D:\front_end\class\js\image_animation" />
-      <recent name="D:\front_end\class\js\image_animation\sprite" />
-      <recent name="D:\front_end\snappy\css" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\front_end\class\js\image_animation" />
@@ -277,13 +291,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="0" width="1913" height="1084" extended-state="0" />
+    <frame x="8" y="0" width="1913" height="1084" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17414248" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295099" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925338" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24983984" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -294,7 +309,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32985386" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -315,118 +329,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/class/html/element/element.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.016375545">
-          <caret line="211" column="124" selection-start-line="211" selection-start-column="2" selection-end-line="211" selection-end-column="124" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/class/webpage/alba/alba.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0">
-          <caret line="56" column="23" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxevent.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxcommunity.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="125" column="1" selection-start-line="125" selection-start-column="1" selection-end-line="125" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxnotice.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="121" column="0" selection-start-line="121" selection-start-column="0" selection-end-line="126" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxbrand.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="429" column="0" selection-start-line="355" selection-start-column="0" selection-end-line="429" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/Membership.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37336814">
-          <caret line="203" column="0" selection-start-line="203" selection-start-column="0" selection-end-line="203" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/bulboxlogin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95956874">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/bulboxcommunity.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95956874">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/bulboxshop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95956874">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/bulboxnotice.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95956874">
-          <caret line="83" column="9" selection-start-line="83" selection-start-column="9" selection-end-line="83" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/bulboxevent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.95956874">
-          <caret line="84" column="9" selection-start-line="84" selection-start-column="9" selection-end-line="84" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/Membership.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="90" column="53" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxpro.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.88250655">
-          <caret line="296" column="10" selection-start-line="222" selection-start-column="0" selection-end-line="296" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxlogin.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="86" column="19" selection-start-line="85" selection-start-column="22" selection-end-line="86" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bulbox/css/bulboxshop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="128" column="0" selection-start-line="128" selection-start-column="0" selection-end-line="128" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bulbox/css/bulbox.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -604,7 +506,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,7 +513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -620,7 +520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -628,7 +527,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="26" selection-start-line="43" selection-start-column="26" selection-end-line="43" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +534,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -658,7 +555,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,14 +562,132 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6674058">
           <caret line="51" column="7" selection-start-line="51" selection-start-column="7" selection-end-line="51" selection-end-column="7" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end-master/class/js/basic/_19-4_animate_bug.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43103448">
+          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end-master/class/js/basic/_19-3_stop_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41264367">
+          <caret line="47" column="38" selection-start-line="47" selection-start-column="38" selection-end-line="47" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/class/webpage/ssgpay/ssgpay.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2827051">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end-master/class/html5_api/jquery-3.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_02_css_calc_function.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34922394">
+          <caret line="21" column="39" selection-start-line="21" selection-start-column="39" selection-end-line="21" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_01_percent_box.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64855874">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end-master/class/html5_api/geo4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end-master/class/html5_api/geo3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.08314856">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end-master/class/html5_api/geo1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/front_end-master/class/html5_api/geo.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2660754">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/a/html/annual_ring.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.958334">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_04_media_type.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="11" selection-start-line="16" selection-start-column="11" selection-end-line="16" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_05_media_resolution.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.75">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_05_media_resolution2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.125">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_05_media_resolution3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.625">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_08_viewport.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/responsive/_08_viewport_2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24944568">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>

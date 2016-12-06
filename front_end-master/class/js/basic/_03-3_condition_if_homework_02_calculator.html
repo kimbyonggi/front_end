@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        .wrap{
+            width:500px;
+            padding:30px;
+            border:10px solid #01aeb2;
+
+            position:absolute;
+            left:50%;
+
+            margin:0 0 0 -280px;
+        }
+
+        .clearfix:after{
+            display:block;
+            content:"";
+            clear:both;
+        }
+
+        .num{
+            display: block;
+            width: 244px;
+            height: 70px;
+            float: left;
+            font-size: 60px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            box-sizing: border-box;
+            text-align: right;
+        }
+
+        .num:first-child{
+            margin-right:12px;
+        }
+
+        .button-wrap{
+            padding:20px 0;
+        }
+
+        .button{
+            display:block;
+            width:116px;
+            height:95px;
+
+            float:left;
+
+            font-size:60px;
+            text-align:center;
+            line-height:50px;
+
+            border:1px solid #feaf2b;
+            background:#fff;
+
+            margin-right:12px;
+            box-sizing:border-box;
+
+            cursor:pointer;
+        }
+
+        .button:last-child{
+            margin-right:0;
+        }
+
+        .result{
+            width:500px;
+            height:70px;
+
+            font-size: 60px;
+            font-family: 'Arial', sans-serif;
+            font-weight: bold;
+            box-sizing: border-box;
+            text-align: right;
+        }
+    </style>
+
+    <script>
+
+        function add(){
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+            var result;
+
+            result = parseInt(num1) + parseInt(num2);
+
+            document.getElementById("result").value = result;
+        }
+
+        function substract(){
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+            var result;
+
+            result = parseInt(num1) - parseInt(num2);
+
+            document.getElementById("result").value = result;
+        }
+
+        function multi(){
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+            var result;
+
+            result = parseInt(num1) * parseInt(num2);
+
+            document.getElementById("result").value = result;
+        }
+
+        function divide(){
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+            var result;
+
+            result = parseInt(num1) / parseInt(num2);
+
+            document.getElementById("result").value = result;
+        }
+
+    </script>
+</head>
+<body>
+
+<div class="wrap">
+
+    <div class="clearfix">
+        <input type="text" id="num1" class="num" value="0" />
+        <input type="text" id="num2" class="num" value="0" />
+    </div>
+
+    <div class="button-wrap clearfix">
+        <button type="button" class="button" onclick="add()">＋</button>
+        <button type="button" class="button" onclick="substract()">－</button>
+        <button type="button" class="button" onclick="multi()">×</button>
+        <button type="button" class="button" onclick="divide()">÷</button>
+    </div>
+
+    <div>
+        <input type="text" id="result" class="result" value="0" />
+    </div>
+
+</div>
+
+</body>
+</html>

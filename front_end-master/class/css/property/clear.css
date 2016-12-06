@@ -1,0 +1,61 @@
+.case1,
+.case2,
+.case3,
+.case4{
+  border:1px solid red;
+  margin-bottom:30px;
+}
+
+.box1{
+  width:300px;
+  height:150px;
+  background:skyblue;
+  float:left;
+}
+
+.box2{
+  width:300px;
+  height:150px;
+  background:orange;
+  float:right;
+}
+
+.clear-box{
+  height:100px;
+  background:#aaa;
+  margin-top:10px;
+  clear:both;
+}
+
+.float-wrap{
+  float:left;
+}
+
+.overflow-wrap{
+  overflow:hidden;
+}
+
+.empty-tag-wrap .clearfix{
+  clear:both;
+}
+
+.pseudo-wrap:after{
+  content:"";
+  display:block;
+  clear:both;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

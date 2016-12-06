@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        .info1, .info2{
+            border:5px solid red;
+            position:fixed;
+            background:#fff;
+        }
+
+        .info1{
+            top:0;
+            left:0;
+        }
+
+        .info2{
+            top:0;
+            right:0;
+        }
+        .pane{
+            width:800px;
+            height:2000px;
+            border:1px solid #000;
+        }
+    </style>
+
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+
+            $('.pane').on('mousemove', function(event){
+
+                var info1X = event.clientX;
+                var info1Y = event.clientY;
+
+                var info1 = 'clientX : ' + info1X;
+                info1 += 'clientY : ' + info1Y;
+
+                var info2X = event.pageX;
+                var info2Y = event.pageY;
+
+                var info2 = 'pageX : ' + info2X;
+                info2 += 'pageY : ' + info2Y;
+
+                $('.info1').text(info1);
+
+                $('.info2').text(info2);
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="info1">윈도우 기준 마우스 위치</div>
+
+<div class="info2">문서 기준 마우스 위치</div>
+
+<div class="pane"></div>
+
+</body>
+</html>

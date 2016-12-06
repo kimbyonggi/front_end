@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <style>
+      #result{
+        width:200px;
+        height:200px;
+        background:yellow;
+        color:red;
+        font-size:72px;
+        font-weight:bold;
+
+        position:absolute;
+        top:50%;
+        left:50%;
+        margin:-100px 0 0 -100px;
+
+        text-align:center;
+        line-height:200px;
+      }
+  </style>
+
+  <script>
+
+    function sum(){
+      var a=0;
+      var endValue = document.getElementById('end-value').value;
+
+      for(var i=1; i<=parseInt(endValue); i++){
+          a=a+i;
+      }
+
+      document.write(a);
+    }
+  </script>
+
+  <script>
+
+    function sum2(){
+
+      var a=0;
+
+      var endValue2 = document.getElementById('end-value2').value;
+
+      for(var i=1; i<=parseInt(endValue2); i++){
+
+        for(var j=1; j<=parseInt(endValue2); j++){
+
+          a = i + j;
+          document.write(a + '<br />');
+
+        }
+
+        document.write('------------------------' + '<br />');
+      }
+    }
+  </script>
+
+</head>
+<body id="body">
+
+<div>
+    <span class="start-value">1 부터</span>
+
+    <input type="text" id="end-value" />
+
+    <span>까지의 숫자의 합 ( 단일 for 구문 )</span>
+</div>
+
+<div>
+    <button type="button" onclick="sum();">합 구하기</button>
+</div>
+
+<div>
+  <span class="start-value">1 부터</span>
+
+  <input type="text" id="end-value2" />
+
+  <span>까지의 숫자의 합 ( 다중 for 구문 )</span>
+</div>
+
+<div>
+  <button type="button" onclick="sum2();">합 구하기</button>
+</div>
+
+</body>
+
+</html>

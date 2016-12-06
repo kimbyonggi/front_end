@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .wrap{
+            padding:30px;
+            border-bottom:3px solid #333;
+        }
+
+        .box-wrap:after{
+            content:"";
+            display:block;
+            clear:both;
+        }
+
+        .box{
+            width:100px;
+            height:100px;
+
+            border:1px solid #01aeb2;
+            background:#f4d900;
+
+            float:left;
+            margin-right:20px;
+        }
+
+        .box.show, .box.show-ani, .fadein, .down{
+            display:none;
+        }
+
+    </style>
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+
+            $('.btn-show').on('click', function(){
+                $('.box.show').show();
+                $('.box.hide').hide();
+                $('.box.show-ani').show('slow');
+                $('.box.hide-ani').hide(1000);
+            });
+
+            $('.btn-fade').on('click', function(){
+                $('.box.fadein').fadeIn(1000);
+                $('.box.fadeout').fadeOut(1000);
+            });
+
+            $('.btn-slide').on('click', function(){
+                $('.box.up').slideUp(1000);
+                $('.box.down').slideDown(1000);
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="wrap">
+
+    <div class="box-wrap">
+        <div class="box show">show</div>
+        <div class="box hide">hide</div>
+        <div class="box show-ani">show</div>
+        <div class="box hide-ani">hide</div>
+    </div>
+
+    <button type="button" class="btn-show">start</button>
+
+</div>
+
+<div class="wrap">
+
+    <div class="box-wrap">
+        <div class="box fadein">fade in</div>
+        <div class="box fadeout">fade out</div>
+    </div>
+
+    <button type="button" class="btn-fade">start</button>
+
+</div>
+
+<div class="wrap">
+
+    <div class="box-wrap">
+        <div class="box up">slide up</div>
+        <div class="box down">slide down</div>
+    </div>
+
+    <button type="button" class="btn-slide">start</button>
+
+</div>
+
+</body>
+</html>

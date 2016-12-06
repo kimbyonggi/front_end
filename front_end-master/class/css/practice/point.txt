@@ -1,0 +1,10 @@
+1. float & clear
+
+  - float된 영역의 부모 element는 높이가 인식되지 않으므로,
+    하단 영역과의 관계가 제대로 표현되지 않을 수 있음.
+
+  - 하단 영역의 clear:both 가 제대로 동작하게 하려면, float된
+    영역의 parent element가 높이가 인식되어야 함.
+
+  - float된 영역의 parent element의 높이를 인식시키는 방법 4가지
+    Comming Soon!!

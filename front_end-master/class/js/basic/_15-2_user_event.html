@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+        .box{
+            width:200px;
+            height:200px;
+
+            background:#f4d900;
+            margin-bottom:30px;
+        }
+    </style>
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+
+            $('.box1').on('click', function(){
+
+                $(this).css({
+                    background : '#f00'
+                });
+
+                $('.box2').trigger('userClick');
+
+            });
+
+            $('.box2').on('userClick', function(){
+
+                $(this).css({
+                    background : '#00f'
+                });
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+    <div class="box box1">box1</div>
+    <div class="box box2">box2</div>
+
+</body>
+</html>

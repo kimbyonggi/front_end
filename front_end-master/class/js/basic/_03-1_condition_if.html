@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title></title>
+
+  <script>
+
+    /**
+     * 두 숫자와 연산자를 입력받아 계산하는 함수
+     */
+
+    function cal(){
+
+      /*
+
+       팝업 창에서 입력하는 방식
+
+       var first = window.prompt('첫번째 값을 입력하시오.');
+       var second = window.prompt('두번째 값을 입력하시오.');
+       var operator = window.prompt('계산종류를 입력하시오.(+,-,*,/)');
+
+       */
+
+      var first = document.getElementById('first').value;
+      var second = document.getElementById('second').value;
+      var operator = document.getElementById('operator').value;
+
+      var result = 0;
+
+      first = parseInt(first);
+      second = parseInt(second);
+
+      if( operator == '+' || operator == '1' ){
+          result = first + second;
+      } else if( operator == '-' || operator == '2' ){
+          result = first - second;
+      } else if( operator == '*' || operator == '3' ){
+          result = first * second;
+      } else {
+          result = first / second;
+      }
+
+      document.write('<p>');
+      document.write(result);
+      document.write('</p>');
+    }
+
+  </script>
+
+  <script>
+
+    /**
+     * 두 숫자를 입력받아 합격 표시하는 함수
+     */
+
+    function cal2(){
+
+      var kor = document.getElementById('kor').value;
+      var eng = document.getElementById('eng').value;
+
+      var result = 0;
+
+      kor = parseInt(kor);
+      eng = parseInt(eng);
+
+      if( kor >= 90 && eng >= 90 ){
+        result = '합격';
+      } else {
+        result = '불합격';
+      }
+
+      document.write('<p>');
+      document.write(result);
+      document.write('</p>');
+    }
+
+  </script>
+
+</head>
+<body>
+
+<h1>두 숫자와 연산자를 입력받아서 계산하기 - if 단일 조건 예제</h1>
+
+<div>
+  <label class="label">첫번째 값 :</label>
+  <input type="text" id="first" />
+</div>
+
+<div>
+  <label class="label">두번째 값 :</label>
+  <input type="text" id="second" />
+</div>
+
+<div>
+  <label class="label">계산종류(+,-,*,/) :</label>
+  <input type="text" id="operator" />
+</div>
+
+<div>
+  <button type="button" onclick="cal();">계산</button>
+</div>
+
+<h1>두 점수를 입력받아 합격/불합격 표시 - if 복합 조건 예제</h1>
+<h3>두 점수 모두 90이상이면 합격 아니면 불합격</h3>
+
+<div>
+  <label class="label">국어 :</label>
+  <input type="text" id="kor" />
+</div>
+
+<div>
+  <label class="label">영어 :</label>
+  <input type="text" id="eng" />
+</div>
+
+<div>
+  <button type="button" onclick="cal2();">합격확인</button>
+</div>
+
+</body>
+</html>

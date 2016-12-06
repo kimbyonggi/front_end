@@ -1,0 +1,224 @@
+/* 텍스트 색 */
+p{
+  color:#00a0d1;
+}
+
+/* 텍스트 정렬 */
+#text-align{
+  color:blue;
+  text-align:center;
+}
+
+/* 텍스트 색 */
+.ppp{
+  color:red;
+}
+
+/* 텍스트 라인 */
+.text-decoration{
+  text-decoration:none;
+}
+
+/* 폰트 설정 */
+.font{
+  font-family:"궁서체", serif;
+  font-size:20px;
+  font-weight:bold;
+}
+
+/* 링크 태그 상태 설정 */
+.link-status:link,
+.link-status:visited{
+  color:#000;
+  text-decoration:none;
+}
+
+.link-status:hover{
+  color:#f00;
+  text-decoration:underline;
+  font-size:30px;
+}
+
+/* 테이블 스타일 */
+table{
+  border-collapse:collapse;
+  width:300px;
+}
+
+table, th, td{
+  border:1px solid #000;
+}
+
+th, td{
+  height:50px;
+}
+
+/* box model block 요소와 inline 요소 비교 */
+
+.box-model-block{
+  width:300px;
+  height:100px;
+  padding:50px;
+  border:5px solid red;
+  margin:100px;
+}
+
+.box-model-inline{
+  width:300px;
+  height:100px;
+  padding:50px;
+  border:5px solid blue;
+  margin:100px;
+}
+
+/* display property */
+
+.display-inline{
+  display:inline;
+
+  width:300px;
+  height:100px;
+  padding:50px;
+  border:5px solid blue;
+}
+
+.display-block{
+  display:block;
+
+  width:300px;
+  height:100px;
+  padding:50px;
+  border:5px solid red;
+}
+
+.display-inline-block{
+  display:inline-block;
+
+  width:100px;
+  height:100px;
+  padding:50px;
+  border:5px solid green;
+}
+
+/* 가변 가로 길이 */
+
+.wrap{
+  width:100%;
+  min-width:400px;
+  max-width:800px;
+
+  background-color:red;
+}
+
+/* float property */
+
+.float-wrap{
+  width:800px;
+  height:500px;
+  border:1px solid red;
+}
+
+.float-left{
+  float:left;
+  width:200px;
+  height:200px;
+  background-color:green;
+}
+
+.float-right{
+  float:left;
+  width:200px;
+  height:200px;
+  background-color:skyblue;
+}
+
+.bg-color-gray{
+  width:400px;
+  height:200px;
+  background-color:gray;
+  clear:both;
+}
+
+/* position property */
+
+.relative-wrap{
+  width:300px;
+  height:200px;
+  border:1px solid darkolivegreen;
+  margin-bottom:100px;
+}
+.position-relative{
+  position:relative;
+  top:20px;
+  left:30px;
+
+  background-color:salmon;
+}
+
+.outer{
+  position:relative;
+  width:500px;
+  height:500px;
+
+  background-color:lightblue;
+}
+
+.absolute-wrap{
+  position:absolute;
+  right:30px;
+  bottom:50px;
+  width:300px;
+  height:200px;
+  border:1px solid brown;
+  margin-bottom:100px;
+}
+
+.position-absolute{
+  position:absolute;
+  top:20px;
+  left:30px;
+
+  background-color:yellow;
+}
+
+.position-fixed{
+  position:fixed;
+  bottom:10px;
+  right:30px;
+
+  width:100px;
+  height:100px;
+  background-color:chartreuse;
+}
+
+.overlap-parent{
+  position:relative;
+  width:300px;
+  height:200px;
+  border:1px solid darkolivegreen;
+}
+
+.overlap-a{
+  position:absolute;
+  top:10px;
+  left:10px;
+  width:100px;
+  height:100px;
+  background-color:palevioletred;
+}
+
+.overlap-b{
+  position:absolute;
+  top:50px;
+  left:50px;
+  width:100px;
+  height:100px;
+  background-color:yellow;
+}
+
+
+
+
+
+
+

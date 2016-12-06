@@ -1,0 +1,136 @@
+Selector
+1. Tag
+2. id
+3. class
+
+Ex) <div id="header" class="header"></div>
+
+CSS 포함방법
+
+1. inline
+ex) <div style="color:red"></div>
+
+2. embed( internal )
+
+ex)
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <!-- CSS -->
+  <style>
+    p { color:red }
+  </style>
+  <!--// CSS -->
+</head>
+
+3. external
+
+ex)
+
+파일 : style.css
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+  <!--// CSS -->
+</head>
+
+문법
+
+selector {
+  property : property 값;
+  property : property 값;
+  property : property 값;
+}
+
+***** border property 정리 *****
+
+1. 4방향 모두 공통 적용
+
+  border: 굵기 종류 색;
+
+2. 각각의 방향에 공통적용
+
+  border-top: 굵기 종류 색;
+  border-right: 굵기 종류 색;
+  border-bottom: 굵기 종류 색;
+  border-left: 굵기 종류 색;
+
+3. 각각의 방향, 각각의 CSS 속정 적용
+
+  border-top-style,
+  border-top-width,
+  border-top-color,
+  border-right-style,
+  border-right-width,
+  border-right-color,
+  ...
+
+
+***** CSS 단위 *****
+
+px : 숫자 고정값
+
+em : body에 적용된 기본 폰트 크기의 배수
+
+%  : parent tag 영역의 비율로 크기 결정
+
+  ex)
+    - @html
+
+      <div>
+        <p>단락</p>
+      </div>
+
+    - @css
+
+      p{width:50%;}
+
+    => p 태그의 영역 가로 길이는 div 태그 영역의 50%(절반)의 크기
+
+
+***** width / max-width / min-width *****
+
+  width: 가로길이
+  max-width: 최대 가로길이
+  min-width: 최소 가로길이
+
+
+***** float property *****
+
+float:left;
+
+float:right;
+
+float:none;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

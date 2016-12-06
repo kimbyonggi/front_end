@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script>
+        // 1. 일반적인 함수 정의
+        function add(){
+            var num1 = document.getElementById('num1').value;
+            var num2 = document.getElementById('num2').value;
+            var result;
+
+            result = parseInt(num1) + parseInt(num2);
+
+            document.write(result);
+        }
+    </script>
+
+    <script>
+        // 2. 매개변수를 사용한 함수 정의
+        function sum(num3, num4){
+            var result;
+
+            result = parseInt(num3) + parseInt(num4);
+            document.write(result);
+        }
+
+        function add2(){
+            var num3 = document.getElementById('num3').value;
+            var num4 = document.getElementById('num4').value;
+
+            sum(num3, num4);
+        }
+    </script>
+
+    <script>
+        // 3. return 값이 있는 함수( 매개변수 사용 )
+        function returnMulti(num5, num6, midValue){
+            midValue = parseInt(num5) * parseInt(num6);
+            return midValue;
+        }
+
+        function returnAdd(num5, num6, midValue){
+            midValue = parseInt(num5) + parseInt(num6);
+            return midValue;
+        }
+
+        function cal(){
+            var num5 = document.getElementById('num5').value;
+            var num6 = document.getElementById('num6').value;
+            var midValue = 0;
+            var result;
+
+            result = returnMulti(num5, num6, midValue) - returnAdd(num5, num6, midValue);
+
+            document.write(result);
+
+        }
+    </script>
+</head>
+<body>
+
+<h1>1. 두 수를 입력받아 합을 구하기(일반적인 함수정의 예제)</h1>
+
+<div>
+    <input type="text" id="num1" />
+    <input type="text" id="num2" />
+</div>
+
+<div>
+    <button type="button" onclick="add();">결과확인</button>
+</div>
+
+<hr />
+
+<h1>2. 두 수를 입력받아 합을 구하기(매개변수 사용한 함수정의 예제)</h1>
+
+<div>
+    <input type="text" id="num3" />
+    <input type="text" id="num4" />
+</div>
+
+<div>
+    <button type="button" onclick="add2();">결과확인</button>
+</div>
+
+<hr />
+
+<h1>3. 두 수를 입력받아 두수의 곱 - 두수의 합 구하기(return 값 있는 함수 예제)</h1>
+
+<div>
+    <input type="text" id="num5" />
+    <input type="text" id="num6" />
+</div>
+
+<div>
+    <button type="button" onclick="cal();">결과확인</button>
+</div>
+
+
+</body>
+</html>

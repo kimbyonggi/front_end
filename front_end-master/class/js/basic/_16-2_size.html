@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+
+        .box{
+            width:100px;
+            height:100px;
+
+            padding:50px;
+
+            border:10px solid blue;
+
+            margin:100px;
+
+            background:skyblue;
+        }
+
+    </style>
+
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+
+        $(function(){
+
+            console.log( 'width  : ' + $('.box').width() );
+            console.log( 'height : ' + $('.box').height() );
+
+            console.log( 'innerWidth  : ' + $('.box').innerWidth() );
+            console.log( 'innerHeight : ' + $('.box').innerHeight() );
+
+            console.log( 'outerWidth  : ' + $('.box').outerWidth() );
+            console.log( 'outerHeight : ' + $('.box').outerHeight() );
+
+            console.log( 'outerWidth(true)  : ' + $('.box').outerWidth(true) );
+            console.log( 'outerHeight(true) : ' + $('.box').outerHeight(true) );
+
+        });
+
+    </script>
+</head>
+<body>
+
+    <div class="box"></div>
+
+</body>
+</html>

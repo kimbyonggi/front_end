@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <style>
+
+        .box{
+            width:100px;
+            height:10000px;
+
+            padding:50px;
+
+            border:10px solid blue;
+
+            margin:100px;
+
+            background:skyblue;
+
+            transition:all 1s ease-out;
+        }
+
+        .wrap{
+            width:200px;
+            height:200px;
+
+            position:fixed;
+            top:200px;
+            right:30px;
+
+            overflow:scroll;
+        }
+
+    </style>
+
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+
+        $(function(){
+
+            console.log( ' 웹 문서 스크롤 위치 : ' + $(document).scrollTop() );
+
+            $('.wrap').on('scroll', function(){
+                console.log( ' 영역 내에서의 스크롤 위치 : ' + $('.wrap').scrollTop() );
+            });
+
+            $(document).on('scroll', function(){
+
+                if( $(document).scrollTop() >= 3000 ){
+
+                    $('.box').css({
+                        background : 'red',
+                        'border-color' : 'pink'
+                    });
+
+                } else {
+
+                    $('.box').css({
+                        background : 'skyblue',
+                        'border-color' : 'blue'
+                    });
+
+                }
+            });
+
+        });
+
+    </script>
+</head>
+<body>
+
+    <div class="box"></div>
+
+    <div class="wrap">
+        <div class="box"></div>
+    </div>
+
+</body>
+</html>

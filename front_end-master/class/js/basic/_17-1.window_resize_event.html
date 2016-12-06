@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        .info{
+            border:5px solid red;
+            font-size:14px;
+        }
+    </style>
+    <script src="../lib/jquery-3.1.1.js"></script>
+    <script>
+        $(function(){
+
+            $(window).on('resize', function(){
+
+                $('.info').text('창의 가로길이 : ' + $(this).width() + '창의 세로길이 : ' + $(this).height());
+
+            });
+
+        });
+    </script>
+</head>
+<body>
+
+<div class="info">여기에 윈도우 크기가 출력됩니다.</div>
+
+</body>
+</html>

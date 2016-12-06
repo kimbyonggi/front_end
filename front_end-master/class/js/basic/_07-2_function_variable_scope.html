@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+
+    <script>
+
+        var a = 10;
+
+        function func1(){
+
+            var b = 20;
+
+            // 변수 a 값 출력 가능 - 전역 변수
+            document.write('함수 지역 1 - 변수 a : ' + a + '<br />');
+
+            // 변수 b 값 출력 가능 - 같은 영역 지역 변수
+            document.write('함수 지역 1 - 변수 b : ' + b + '<br />');
+
+            // 변수 c 값 출력 불가능 - 다른 영역 지역 변수
+            document.write('함수 지역 1 - 변수 c :' + '오류' + '<br />');
+        }
+
+        function func2(){
+
+            var c = 30;
+
+            // 변수 a 값 출력 가능 - 전역 변수
+            document.write('함수 지역 2 - 변수 a : ' + a + '<br />');
+
+            // 변수 b 값 출력 불가능 - 다른 영역 지역 변수
+            document.write('함수 지역 2 - 변수 b :' + '오류' + '<br />');
+
+            // 변수 c 값 출력 가능 - 같은 영역 지역 변수
+            document.write('함수 지역 2 - 변수 a :' + c + '<br />');
+        }
+
+        // 함수 호출
+
+        document.write('프로그램 전역 - 변수 a :' + a + '<br />');
+
+        func1();
+
+        func2();
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
